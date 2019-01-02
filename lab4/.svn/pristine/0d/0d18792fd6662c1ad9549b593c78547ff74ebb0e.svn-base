@@ -1,0 +1,162 @@
+#include <lcom/lcf.h>
+
+#include <minix/com.h>
+#include <minix/drivers.h>
+#include <minix/syslib.h>
+#include <minix/sysutil.h>
+
+#include "i8042.h"
+#include "mouse.h"
+
+static int ms_hook_id = 0;
+//int counter = 0;
+//int com_x = 0, com_y = 0;
+
+int mouse_send_data(uint32_t cmd, uint32_t port){
+        uint32_t stat, read;
+        while( 1 ) {
+                if(sys_inb(KBD_STATUS, &stat) != 0){
+                        printf("mouse_send_data: error reading stat from STAT_REG.\n");
+                        return -1;
+                }
+                /* loop while 8042 input buffer is not empty */
+
+                if( (stat & IBF) == 0 )  {
+                        if(sys_outb(port, cmd) != 0){
+                                printf("mouse_send_data: error writing cmd to %ul.\n",port);
+                                return -1;
+                        }
+                        if(sys_inb(OUT_BUF,&read) == 0) {
+                                if (read == RESEND) {
+                                        printf("mouse_send_data: Byte needs to be resent.\n");
+                                        continue;
+                                }
+                                else if (read == ERROR) {
+                                        printf("mouse_send_data: Error reading byte.\n");
+                                        return 1;
+                                }
+                        }
+                        else {
+                                printf("mouse_send_data: error reading response from OUT_BUF.\n");
+                                return -1;
+                        }
+                        return 0;
+                }
+                tickdelay(micros_to_ticks(2*DELAY_US));
+        }
+        return -1;
+}
+
+int(mouse_subscribe)(uint8_t *bit_no) {
+
+  if (sys_irqsetpolicy(PS2_IRQ, IRQ_REENABLE | IRQ_EXCLUSIVE, &ms_hook_id) != OK) {
+    printf("mouse_subscribe: IRQ setpolicy failed.\n");
+    return 1;
+  }
+  if (sys_irqenable(&ms_hook_id) != OK) {
+    printf("mouse_subscribe: IRQ enable failed.\n");
+    return 1;
+  }
+  if (mouse_send_data(ACTIVATE_MOUSE, KBD_CTRL) != 0) {
+    printf("mouse_subscribe: failed to activate mouse.");
+    return 1;
+  }
+  *bit_no = ms_hook_id;
+  return 0;
+}
+
+int(mouse_unsubscribe)(void) {
+  if (sys_irqdisable(&ms_hook_id) != OK) {
+    printf("mouse_unsubscribe: IRQ disable failed.\n");
+    return -1;
+  }
+  if (sys_irqrmpolicy(&ms_hook_id) != OK) {
+    printf("mouse_unsubscribe: IRQ unsubscribe failed.\n");
+    return -2;
+  }
+  return 0;
+}
+
+void(mouse_ih)() {
+  uint8_t ms_byte = mouse_read_data();
+  if (counter == 0 && (((ms_byte & BIT(3)) == BIT(3)))) {
+    paux->bytes[counter] = ms_byte;
+    paux->lb = BIT(0);
+    paux->rb = BIT(1);
+    paux->mb = BIT(2);
+    paux->x_sign = BIT(4);
+    paux->y_sign = BIT(5);
+    paux->x_ov = BIT(6);
+    paux->y_ov = BIT(7);
+    counter++;
+  }
+  else if (counter == 1) {
+    if (paux->x_sign)
+      paux->delta_x = -1 * ms_byte;
+    else
+      paux->delta_x = ms_byte;
+    counter++;
+  }
+  else if (counter == 2) {
+    if (paux->y_sign)
+      paux->delta_y = -1 * ms_byte;
+    else
+      paux->delta_y = ms_byte;
+    counter++;
+  }
+  else
+    counter = 0;
+}
+
+int mouse_enable_packets() {
+  if (mouse_send_data(MS_D4, KBD_CTRL) != 0) {
+    printf("mouse_enable_packets: failed to write byte.");
+    return -1;
+  }
+
+  if (mouse_send_data(ENABLE_PACKETS, IBF) != 0) {
+    printf("mouse_enable_packets: failed to activate stream mode.");
+    return -1;
+  }
+  return 0;
+}
+
+int mouse_disable_packets() {
+  if (mouse_send_data(MS_D4, KBD_CTRL) != 0) {
+    printf("mouse_disable_packets: failed to write byte.");
+    return -1;
+  }
+
+  if (mouse_send_data(DISABLE_PACKETS, IBF) != 0) {
+    printf("mouse_disable_packets: failed to deactivate stream mode.");
+    return -1;
+  }
+
+  return 0;
+}
+
+uint8_t mouse_read_data() {
+  uint32_t data, stat;
+  while (1) {
+    if (sys_inb(KBD_STATUS, &stat) != 0)
+      return -1; /* assuming it returns OK */
+    /* loop while 8042 output buffer is empty */
+
+    if (stat & OBF) {
+      if (sys_inb(OUT_BUF, &data) != 0) {
+        printf("mouse_read_data: error reading data from OUT_BUF.\n");
+        return -1; /* assuming it returns OK */
+      }
+
+      if ((stat & (PAR_ERR | TO_ERR)) == 0) {
+        return data;
+      }
+
+      else {
+        printf("mouse_read_data: parity/timeout error.\n");
+        return -1;
+      }
+    }
+    tickdelay(micros_to_ticks(DELAY_US));
+  }
+}

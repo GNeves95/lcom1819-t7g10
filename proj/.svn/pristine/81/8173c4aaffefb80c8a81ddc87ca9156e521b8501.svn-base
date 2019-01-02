@@ -1,0 +1,170 @@
+// IMPORTANT: you must include the following line in all your C files
+#include <lcom/lcf.h>
+
+// Any header files included below this line should have been created by you
+#include "kbd.h"
+#include "i8042.h"
+#include "i8254.h"
+#include "mouse.h"
+#include "ps2.h"
+#include "vga.h"
+
+int main(int argc, char *argv[]) {
+  // sets the language of LCF messages (can be either EN-US or PT-PT)
+  lcf_set_language("EN-US");
+
+  // enables to log function invocations that are being "wrapped" by LCF
+  // [comment this out if you don't want/need it]
+  lcf_trace_calls("/home/lcom/labs/proj/trace.txt");
+
+  // enables to save the output of printf function calls on a file
+  // [comment this out if you don't want/need it]
+  lcf_log_output("/home/lcom/labs/proj/output.txt");
+
+  // handles control over to LCF
+  // [LCF handles command line arguments and invokes the right function]
+  if (lcf_start(argc, argv))
+    return 1;
+
+  // LCF clean up tasks
+  // [must be the last statement before return]
+  lcf_cleanup();
+
+  return 0;
+}
+
+int (proj_main_loop)(int argc, char *argv[]) {
+  /* To be completed */
+  printf("%s(%d, %p): under construction\n", __func__, argc, argv);
+
+  int estado, fr_rate=60;
+  uint8_t kbd_bit, mouse_bit, tmr_bit;
+  uint16_t x=0, y=0;
+  message msg;
+  bool running = true;
+
+  if (kbd_subscribe_int(&kbd_bit) != 0)
+  {
+    printf("kbd_subscribe_int(34): Couldn't subscribe to keyboard interrupts\n");
+    return 1;
+  }
+  
+  timer_subscribe_int(&tmr_bit);
+  
+  if(init_mouse(&mouse_bit)){
+		printf("mouse_test_packet(46): problem initializing mouse!\n");
+		return 1;
+  }
+  
+  char *vm = (char*)vg_init(0x105);
+  
+  while (running)
+  {
+    driver_receive(ANY, &msg, &estado);
+    if (is_ipc_notify(estado))
+    {
+      switch (_ENDPOINT_P(msg.m_source))
+      {
+      case HARDWARE:
+        if (msg.m_notify.interrupts & BIT(mouse_bit)){
+			mouse_ih();
+						
+			if(counter == -1)
+				break;
+							
+			if(counter > 2) {
+				//struct packet pp;
+							
+				/*pp.bytes[0] = paux->bytes[0];
+				pp.bytes[1] = paux->bytes[1];
+				pp.bytes[2] = paux->bytes[2];
+				pp.rb = paux->rb;
+				pp.mb = paux->mb;
+				pp.lb = paux->lb;
+				pp.delta_x = paux->delta_x;
+				pp.delta_y = paux->delta_y;
+				pp.x_ov = paux->x_ov;
+				pp.y_ov = paux->y_ov;*/
+				
+				x+=paux->delta_x;
+				y-=paux->delta_y;
+				
+				if(x < 0) x=0;
+				else if(x>getHRes()) x= getHRes();
+				
+				if(y < 0) y=0;
+				else if(y>getVRes()) y= getVRes();
+							
+				//mouse_print_packet(&pp);
+				//int_cnt++;
+				counter = 0;
+			}
+		}
+        if (msg.m_notify.interrupts & BIT(kbd_bit))
+        {
+          kbc_ih();
+          bool msb = (kbc_code & BIT(7)) ? true : false;
+
+          uint8_t kbc_code_bytes[3];
+
+          kbc_code_bytes[0] = (kbc_code >> 0) & 0xFF;
+          kbc_code_bytes[1] = (kbc_code >> 8) & 0xFF;
+          kbc_code_bytes[2] = (kbc_code >> 16) & 0xFF;
+
+          kbd_print_scancode(msb, 1, kbc_code_bytes);
+          if (kbc_code_bytes[0] == ESC_BREAK)
+          { //Exists upon the release of ESC key
+            running = false;
+          }
+        }
+        if (msg.m_notify.interrupts & BIT(tmr_bit))
+        {
+			//cnt++;
+			timer_int_handler();
+			if((cont*fr_rate) % 60 == 0){
+				//if(((cnt*fr_rate) / 60)%refresh == 0){
+					/*clearScreenDouble();
+					drawXPMdouble(xpm, x, y);
+					swap();
+					if(horizontal == true){
+						if(x+mov > xf) x = xf;
+						else x += mov;
+					}
+					else{
+						if(y+mov > yf) y = yf;
+						else y += mov;
+					}*/
+				//}
+				set_pixel(x,y,2);
+				
+				//if(((cont*fr_rate) / 3600) == 5) running = false;
+			}
+		}
+        break;
+      default:
+        break;
+      }
+    }
+  }  
+  
+  vg_exit();
+  
+  printf("%x\n",vm);
+
+  if (kbd_unsubscribe_int() != 0)
+    return 2;
+    
+  if(timer_unsubscribe_int() != 0)
+	return 3;
+	
+  if (ps2_unsubscribe_int() != 0)
+	return 2;
+	
+  if(ps2_ignore() != 0)
+  {
+	printf("mouse_test_packet(53): Failed ignoring ps2 buffer!\n");
+	return 3;
+  }
+
+  return 1;
+}

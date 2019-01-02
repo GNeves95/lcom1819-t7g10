@@ -1,0 +1,1189 @@
+Sep 17 16:03:38 minix syslogd[523]: restart
+Sep 17 16:03:38 minix kernel: 
+Sep 17 16:03:38 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Sep 17 16:03:38 minix kernel: MINIX is open source software, see http://www.minix3.org
+Sep 17 16:03:38 minix kernel: Started VFS: 9 worker thread(s)
+Sep 17 16:03:38 minix sshd[602]: Server listening on :: port 22.
+Sep 17 16:03:38 minix sshd[602]: Server listening on 0.0.0.0 port 22.
+Sep 17 16:03:48 minix dhcpcd[439]: le0: no IPv6 Routers available
+Sep 17 16:03:57 minix login: root to lcom on tty console
+Sep 17 16:03:57 minix login: Cannot update lastlogx: Invalid argument
+Sep 17 16:04:25 minix poweroff: powered off by lcom
+Sep 17 16:04:25 minix dhcpcd[439]: received SIGTERM, stopping
+Sep 17 16:04:25 minix syslogd[523]: Exiting on signal 15
+Sep 17 16:18:24 minix syslogd[519]: restart
+Sep 17 16:18:24 minix kernel: 
+Sep 17 16:18:24 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Sep 17 16:18:24 minix kernel: MINIX is open source software, see http://www.minix3.org
+Sep 17 16:18:24 minix kernel: Started VFS: 9 worker thread(s)
+Sep 17 16:18:24 minix sshd[598]: Server listening on :: port 22.
+Sep 17 16:18:24 minix sshd[598]: Server listening on 0.0.0.0 port 22.
+Sep 17 16:18:33 minix login: 1 LOGIN FAILURE ON console
+Sep 17 16:18:33 minix login: 1 LOGIN FAILURE ON console, lcom
+Sep 17 16:18:34 minix login: ROOT LOGIN (root) on tty console
+Sep 17 16:18:34 minix login: Cannot update lastlogx: Invalid argument
+Sep 17 16:18:34 minix login: ROOT LOGIN (root) ON console
+Sep 17 16:18:34 minix dhcpcd[439]: le0: no IPv6 Routers available
+Sep 17 16:20:51 minix login: root to lcom on tty console
+Sep 17 16:20:51 minix login: Cannot update lastlogx: Invalid argument
+Sep 17 16:24:11 minix kernel: HELLO: 2
+Sep 17 16:24:11 minix kernel: !
+Sep 17 16:24:11 minix kernel: I: 0
+Sep 17 16:24:11 minix kernel: I: 1
+Sep 17 16:24:28 minix kernel: HELLO: 1
+Sep 17 16:24:28 minix kernel: !
+Sep 17 16:24:28 minix kernel: I: 0
+Sep 17 16:24:28 minix kernel: I: 1
+Sep 17 16:24:42 minix login: ROOT LOGIN (root) on tty console
+Sep 17 16:24:42 minix login: Cannot update lastlogx: Invalid argument
+Sep 17 16:24:42 minix login: ROOT LOGIN (root) ON console
+Sep 17 16:24:45 minix poweroff: powered off by root
+Sep 17 16:24:45 minix dhcpcd[439]: received SIGTERM, stopping
+Sep 17 16:24:45 minix syslogd[519]: Exiting on signal 15
+Sep 17 16:55:02 minix syslogd[521]: restart
+Sep 17 16:55:02 minix kernel: 
+Sep 17 16:55:02 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Sep 17 16:55:02 minix kernel: MINIX is open source software, see http://www.minix3.org
+Sep 17 16:55:02 minix kernel: Started VFS: 9 worker thread(s)
+Sep 17 16:55:02 minix sshd[600]: Server listening on :: port 22.
+Sep 17 16:55:02 minix sshd[600]: Server listening on 0.0.0.0 port 22.
+Sep 17 16:55:11 minix dhcpcd[441]: le0: no IPv6 Routers available
+Sep 17 16:57:06 minix login: root to lcom on tty console
+Sep 17 16:57:06 minix login: Cannot update lastlogx: Invalid argument
+Sep 17 16:57:10 minix reboot: rebooted by lcom
+Sep 17 16:57:10 minix dhcpcd[441]: received SIGTERM, stopping
+Sep 17 16:57:10 minix syslogd[521]: Exiting on signal 15
+Sep 17 16:57:26 minix syslogd[518]: restart
+Sep 17 16:57:26 minix kernel: 
+Sep 17 16:57:26 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Sep 17 16:57:26 minix kernel: MINIX is open source software, see http://www.minix3.org
+Sep 17 16:57:26 minix kernel: Started VFS: 9 worker thread(s)
+Sep 17 16:57:26 minix sshd[600]: Server listening on :: port 22.
+Sep 17 16:57:26 minix sshd[600]: Server listening on 0.0.0.0 port 22.
+Sep 17 16:57:31 minix login: root to lcom on tty console
+Sep 17 16:57:31 minix login: Cannot update lastlogx: Invalid argument
+Sep 17 16:57:36 minix dhcpcd[438]: le0: no IPv6 Routers available
+Sep 17 16:59:22 minix poweroff: powered off by lcom
+Sep 17 16:59:22 minix dhcpcd[438]: received SIGTERM, stopping
+Sep 17 16:59:22 minix syslogd[518]: Exiting on signal 15
+Nov 10 16:32:36 minix syslogd[559]: restart
+Nov 10 16:32:36 minix kernel: 
+Nov 10 16:32:36 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 10 16:32:36 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 10 16:32:36 minix kernel: Started VFS: 9 worker thread(s)
+Nov 10 16:32:36 minix sshd[638]: Server listening on :: port 22.
+Nov 10 16:32:36 minix sshd[638]: Server listening on 0.0.0.0 port 22.
+Nov 10 16:32:46 minix dhcpcd[479]: le0: no IPv6 Routers available
+Nov 10 16:35:19 minix login: root to lcom on tty console
+Nov 10 16:35:19 minix login: Cannot update lastlogx: Invalid argument
+Nov 10 16:52:36 minix syslogd[559]: -- MARK --
+Nov 10 17:12:36 minix syslogd[559]: -- MARK --
+Nov 10 17:32:36 minix syslogd[559]: -- MARK --
+Nov 10 17:44:20 minix kernel: 
+Nov 10 17:44:20 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 10 17:44:20 minix kernel:  lcom_run lab4 "packet <no. of packets>"
+Nov 10 17:44:20 minix kernel:  lcom_run lab4 "async <idle_time in s>"
+Nov 10 17:44:20 minix kernel:  lcom_run lab4 "remote <read period in ms> <no. of packets>"
+Nov 10 17:44:20 minix kernel:  lcom_run lab4 "gesture <x_len (mouse units)> <tolerance (mouse units)>"
+Nov 10 17:44:37 minix kernel: 
+Nov 10 17:44:37 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 17:44:37 minix kernel: 
+Nov 10 17:44:37 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 17:44:37 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 17:44:37 minix kernel: ^[[2;0;2;33mwarning: ^[[0mfunction call has no side effects.
+Nov 10 17:44:37 minix kernel: ^[[0m
+Nov 10 17:44:37 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 17:44:37 minix kernel:                             ^[[2;0;1;32m^~~~~~~~~~~^[[0m^[[0m
+Nov 10 17:44:37 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 17:44:37 minix kernel: ^[[2;0;2;33mwarning: ^[[0m[sys_irqenable]: is the meaning of^[[2;2;1;37m IRQ_REENABLE ^[[0mflag understood?
+Nov 10 17:44:37 minix kernel: mouse_send_data: Byte needs to be resent.
+Nov 10 17:44:38 minix syslogd[559]: last message repeated 486 times
+Nov 10 17:44:38 minix kernel: 
+Nov 10 17:44:38 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 17:44:38 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 17:44:38 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 17:44:38 minix kernel: 
+Nov 10 17:44:38 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m25^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 17:44:38 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 17:44:38 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 17:44:38 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 17:45:54 minix kernel: 
+Nov 10 17:45:54 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 17:45:54 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 17:45:54 minix kernel: ^[[2;0;2;33mwarning: ^[[0mfunction call has no side effects.
+Nov 10 17:45:54 minix kernel: ^[[0m
+Nov 10 17:45:54 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 17:45:54 minix kernel:                             ^[[2;0;1;32m^~~~~~~~~~~^[[0m^[[0m
+Nov 10 17:45:54 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 17:45:54 minix kernel: ^[[2;0;2;33mwarning: ^[[0m[sys_irqenable]: is the meaning of^[[2;2;1;37m IRQ_REENABLE ^[[0mflag understood?
+Nov 10 17:45:54 minix kernel: mouse_send_data: Byte needs to be resent.
+Nov 10 17:45:55 minix syslogd[559]: last message repeated 530 times
+Nov 10 17:45:55 minix kernel: 
+Nov 10 17:45:55 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 17:45:55 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 17:45:55 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 17:45:55 minix kernel: 
+Nov 10 17:45:55 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m25^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 17:45:55 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 17:45:55 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 17:45:55 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 17:50:23 minix kernel: 
+Nov 10 17:50:23 minix kernel: mouse::mouse_test_async(3)
+Nov 10 17:50:23 minix kernel: mouse_test_async(3): under construction
+Nov 10 17:50:59 minix kernel: 
+Nov 10 17:50:59 minix kernel: mouse::mouse_test_remote(1, 2)
+Nov 10 17:50:59 minix kernel: mouse_test_remote(1, 2): under construction
+Nov 10 17:51:33 minix kernel: 
+Nov 10 17:51:33 minix kernel: mouse::mouse_test_gesture(5, 2)
+Nov 10 17:51:33 minix kernel: mouse_test_gesture(5,2): under construction
+Nov 10 17:53:52 minix kernel: 
+Nov 10 17:53:52 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 17:53:52 minix kernel: 
+Nov 10 17:53:52 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 17:53:52 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 17:53:52 minix kernel: ^[[2;0;2;33mwarning: ^[[0mfunction call has no side effects.
+Nov 10 17:53:52 minix kernel: ^[[0m
+Nov 10 17:53:52 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 17:53:52 minix kernel:                             ^[[2;0;1;32m^~~~~~~~~~~^[[0m^[[0m
+Nov 10 17:53:52 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 17:53:52 minix kernel: ^[[2;0;2;33mwarning: ^[[0m[sys_irqenable]: is the meaning of^[[2;2;1;37m IRQ_REENABLE ^[[0mflag understood?
+Nov 10 17:53:52 minix kernel: mouse_send_data: Byte needs to be resent.
+Nov 10 17:53:53 minix syslogd[559]: last message repeated 502 times
+Nov 10 17:53:53 minix kernel: 
+Nov 10 17:53:53 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 17:53:53 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 17:53:53 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 17:53:53 minix kernel: 
+Nov 10 17:53:53 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m25^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 17:53:53 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 17:53:53 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 17:53:53 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 17:57:20 minix kernel: 
+Nov 10 17:57:20 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 17:57:20 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 17:57:20 minix kernel: ^[[2;0;2;33mwarning: ^[[0mfunction call has no side effects.
+Nov 10 17:57:20 minix kernel: ^[[0m
+Nov 10 17:57:20 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 17:57:20 minix kernel:                             ^[[2;0;1;32m^~~~~~~~~~~^[[0m^[[0m
+Nov 10 17:57:20 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 17:57:20 minix kernel: ^[[2;0;2;33mwarning: ^[[0m[sys_irqenable]: is the meaning of^[[2;2;1;37m IRQ_REENABLE ^[[0mflag understood?
+Nov 10 17:57:20 minix kernel: mouse_send_data: Byte needs to be resent.
+Nov 10 17:57:23 minix syslogd[559]: last message repeated 1640 times
+Nov 10 17:57:23 minix kernel: 
+Nov 10 17:57:23 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 17:57:23 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 17:57:23 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 17:57:23 minix kernel: 
+Nov 10 17:57:23 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 17:57:23 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 17:57:23 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 18:12:36 minix syslogd[559]: -- MARK --
+Nov 10 18:24:24 minix kernel: 
+Nov 10 18:24:24 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 18:24:24 minix kernel: 
+Nov 10 18:24:24 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 18:24:24 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 18:24:24 minix kernel: ^[[2;0;2;33mwarning: ^[[0mfunction call has no side effects.
+Nov 10 18:24:24 minix kernel: ^[[0m
+Nov 10 18:24:24 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 18:24:24 minix kernel:                             ^[[2;0;1;32m^~~~~~~~~~~^[[0m^[[0m
+Nov 10 18:24:24 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 18:24:24 minix kernel: ^[[2;0;2;33mwarning: ^[[0m[sys_irqenable]: is the meaning of^[[2;2;1;37m IRQ_REENABLE ^[[0mflag understood?
+Nov 10 18:24:24 minix kernel: mouse_send_data: Byte needs to be resent.
+Nov 10 18:24:25 minix syslogd[559]: last message repeated 775 times
+Nov 10 18:24:25 minix kernel: 
+Nov 10 18:24:25 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 18:24:25 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 18:24:25 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 18:40:03 minix kernel: 
+Nov 10 18:40:03 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 18:40:03 minix kernel: 
+Nov 10 18:40:03 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 18:40:03 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 18:40:03 minix kernel: ^[[2;0;2;33mwarning: ^[[0mfunction call has no side effects.
+Nov 10 18:40:03 minix kernel: ^[[0m
+Nov 10 18:40:03 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 18:40:03 minix kernel:                             ^[[2;0;1;32m^~~~~~~~~~~^[[0m^[[0m
+Nov 10 18:40:03 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 18:40:03 minix kernel: ^[[2;0;2;33mwarning: ^[[0m[sys_irqenable]: is the meaning of^[[2;2;1;37m IRQ_REENABLE ^[[0mflag understood?
+Nov 10 18:40:03 minix kernel: mouse_send_data: Byte needs to be resent.
+Nov 10 18:40:03 minix syslogd[559]: last message repeated 86 times
+Nov 10 18:40:03 minix kernel: 
+Nov 10 18:40:03 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 18:40:03 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 18:40:03 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 18:52:11 minix kernel: 
+Nov 10 18:52:11 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 18:52:11 minix kernel: 
+Nov 10 18:52:11 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m53^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 18:52:11 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 18:52:11 minix kernel: ^[[2;0;2;33mwarning: ^[[0mfunction call has no side effects.
+Nov 10 18:52:11 minix kernel: ^[[0m
+Nov 10 18:52:11 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m53^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 18:52:11 minix kernel:                             ^[[2;0;1;32m^~~~~~~~~~~^[[0m^[[0m
+Nov 10 18:52:11 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 18:52:11 minix kernel: ^[[2;0;2;33mwarning: ^[[0m[sys_irqenable]: is the meaning of^[[2;2;1;37m IRQ_REENABLE ^[[0mflag understood?
+Nov 10 18:52:11 minix kernel: mouse_test_packet(44): Couldn't subscribe to mouse
+Nov 10 18:53:13 minix kernel: 
+Nov 10 18:53:13 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 18:53:13 minix kernel: mouse_subscribe: failed to activate mouse.mouse_test_packet(44): Couldn't subscribe to mouse
+Nov 10 18:54:04 minix kernel: 
+Nov 10 18:54:04 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 18:54:04 minix kernel: 
+Nov 10 18:54:04 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 18:54:04 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 18:54:04 minix kernel: ^[[2;0;2;33mwarning: ^[[0mfunction call has no side effects.
+Nov 10 18:54:04 minix kernel: ^[[0m
+Nov 10 18:54:04 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m56^[[0m => ^[[1msys_irqenable(^[[0m^[[2;0;1;33m&ms_hook_id^[[0m^[[1m)^[[0m
+Nov 10 18:54:04 minix kernel:                             ^[[2;0;1;32m^~~~~~~~~~~^[[0m^[[0m
+Nov 10 18:54:04 minix kernel: [from ^[[1mmouse_subscribe^[[0m]
+Nov 10 18:54:04 minix kernel: ^[[2;0;2;33mwarning: ^[[0m[sys_irqenable]: is the meaning of^[[2;2;1;37m IRQ_REENABLE ^[[0mflag understood?
+Nov 10 18:54:04 minix kernel: mouse_send_data: Byte needs to be resent.
+Nov 10 18:54:05 minix syslogd[559]: last message repeated 435 times
+Nov 10 18:54:05 minix kernel: 
+Nov 10 18:54:05 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 18:54:05 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 18:54:05 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 18:54:05 minix kernel: 
+Nov 10 18:54:05 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m25^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 18:54:05 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 18:54:05 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 18:54:05 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 18:54:29 minix kernel: mouse_send_data: Byte needs to be resent.
+Nov 10 18:54:30 minix syslogd[559]: last message repeated 489 times
+Nov 10 18:54:30 minix kernel: 
+Nov 10 18:54:30 minix kernel: ^[[0m@^[[2;0;2;33mmouse.c^[[0m:^[[2;0;2;33m29^[[0m => ^[[1msys_inb(^[[0m^[[2;0;1;33mOUT_BUF, &read^[[0m^[[1m)^[[0m
+Nov 10 18:54:30 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 18:54:30 minix kernel: ^[[2;0;2;33mwarning: ^[[0minput from ^[[2;0;1;37m0x60^[[0m causes interrupt notification possibly without any new byte [IRQ ^[[2;0;1;37m12^[[0m]!
+Nov 10 18:54:30 minix kernel: 
+Nov 10 18:54:30 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m25^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 18:54:30 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 18:54:30 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 18:54:30 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 18:58:14 minix kernel: 
+Nov 10 18:58:14 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m25^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 18:58:14 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 18:58:14 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 18:58:14 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:12:36 minix syslogd[559]: -- MARK --
+Nov 10 19:14:13 minix kernel: 
+Nov 10 19:14:13 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m28^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 19:14:13 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 19:14:13 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 19:14:13 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:17:28 minix kernel: 
+Nov 10 19:17:28 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m28^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 19:17:28 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 19:17:28 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 19:17:28 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:17:47 minix kernel: 
+Nov 10 19:17:47 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m28^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 19:17:47 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 19:17:47 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 19:17:47 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:20:53 minix kernel: 
+Nov 10 19:20:53 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m28^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mcmd, port^[[0m^[[1m)^[[0m
+Nov 10 19:20:53 minix kernel:                        ^[[2;0;1;32m^~~^[[0m^[[0m
+Nov 10 19:20:53 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 19:20:53 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:23:36 minix kernel: mouse_send_data(168,96): parameters
+Nov 10 19:23:36 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m27^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mcmd, port^[[0m^[[1m)^[[0m
+Nov 10 19:23:36 minix kernel:                        ^[[2;0;1;32m^~~^[[0m^[[0m
+Nov 10 19:23:36 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 19:23:36 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:24:06 minix kernel: mous
+Nov 10 19:24:06 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 19:24:06 minix kernel: mouse_send_data(168,96): parametersmouse_send_data(212,96): parametersmouse_send_data(244,2): parameters
+Nov 10 19:24:06 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m27^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 19:24:06 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 19:24:06 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 19:24:06 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:24:36 minix kernel: mous
+Nov 10 19:24:36 minix kernel: mouse::mouse_test_packet(10)
+Nov 10 19:24:36 minix kernel: mouse_send_data(168,96): parameters
+Nov 10 19:24:36 minix kernel: mouse_send_data(212,96): parameters
+Nov 10 19:24:36 minix kernel: mouse_send_data(244,2): parameters
+Nov 10 19:24:36 minix kernel: 
+Nov 10 19:24:36 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m27^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 19:24:36 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 19:24:36 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 19:24:36 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:37:31 minix kernel: mouse_send_data(168,96): parameters
+Nov 10 19:37:31 minix kernel: mouse_send_data(212,96): parameters
+Nov 10 19:37:31 minix kernel: mouse_send_data(244,2): parameters
+Nov 10 19:37:31 minix kernel: 
+Nov 10 19:37:31 minix kernel: ^[[0m@^[[2;0;2;31mmouse.c^[[0m:^[[2;0;2;31m27^[[0m => ^[[1msys_outb(^[[0m^[[2;0;1;31mport, cmd^[[0m^[[1m)^[[0m
+Nov 10 19:37:31 minix kernel:                        ^[[2;0;1;32m^~~~^[[0m^[[0m
+Nov 10 19:37:31 minix kernel: [from ^[[1mmouse_send_data^[[0m]
+Nov 10 19:37:31 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 10 19:52:36 minix syslogd[559]: -- MARK --
+Nov 10 19:52:58 minix kernel: mouse_send_data(168,96): parameters
+Nov 10 19:52:58 minix kernel: mouse_send_data(212,96): parameters
+Nov 10 19:52:58 minix kernel: mouse_send_data(244,96): parameters
+Nov 10 19:52:59 minix kernel: 
+Nov 10 19:52:59 minix kernel: ^[[0m@^[[2;0;2;31mlab4.c^[[0m:^[[2;0;2;31m57^[[0m => ^[[1mdriver_receive(^[[0m^[[2;0;1;31mANY, &msg, &estado^[[0m^[[1m)^[[0m
+Nov 10 19:52:59 minix kernel: [from ^[[1mmouse_test_packet^[[0m]
+Nov 10 19:52:59 minix kernel: ^[[2;0;2;31merror: ^[[0mservice would block!
+Nov 10 19:55:21 minix kernel: mouse_send_data(168,96): parameters
+Nov 10 19:55:21 minix kernel: mouse_send_data(212,96): parameters
+Nov 10 19:55:21 minix kernel: mouse_send_data(244,96): parameters
+Nov 10 19:55:22 minix kernel: 
+Nov 10 19:55:22 minix kernel: ^[[0m@^[[2;0;2;31mlab4.c^[[0m:^[[2;0;2;31m57^[[0m => ^[[1mdriver_receive(^[[0m^[[2;0;1;31mANY, &msg, &estado^[[0m^[[1m)^[[0m
+Nov 10 19:55:22 minix kernel: [from ^[[1mmouse_test_packet^[[0m]
+Nov 10 19:55:22 minix kernel: ^[[2;0;2;31merror: ^[[0mservice would block!
+Nov 10 19:56:22 minix poweroff: powered off by lcom
+Nov 10 19:56:22 minix dhcpcd[479]: received SIGTERM, stopping
+Nov 10 19:56:22 minix syslogd[559]: Exiting on signal 15
+Nov 16 16:20:53 minix syslogd[559]: restart
+Nov 16 16:20:53 minix kernel: 
+Nov 16 16:20:53 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 16 16:20:53 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 16 16:20:53 minix kernel: Started VFS: 9 worker thread(s)
+Nov 16 16:20:53 minix sshd[638]: Server listening on :: port 22.
+Nov 16 16:20:53 minix sshd[638]: Server listening on 0.0.0.0 port 22.
+Nov 16 16:21:02 minix dhcpcd[479]: le0: no IPv6 Routers available
+Nov 16 16:21:27 minix login: root to lcom on tty console
+Nov 16 16:21:27 minix login: Cannot update lastlogx: Invalid argument
+Nov 16 16:35:57 minix su: BAD SU lcom to root on /dev/console
+Nov 16 16:36:01 minix su: lcom to root on /dev/console
+Nov 16 17:00:53 minix syslogd[559]: -- MARK --
+Nov 16 17:00:56 minix kernel: 
+Nov 16 17:00:56 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 16 17:00:56 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 16 17:00:56 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 16 17:00:56 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 16 17:01:08 minix kernel: 
+Nov 16 17:01:08 minix kernel: video::video_test_init(0x105, 10)
+Nov 16 17:01:08 minix kernel: video_test_init(0x105, 10): under construction
+Nov 16 17:01:08 minix kernel: SYSTEM: denied request 14 from 196647.
+Nov 16 17:01:08 minix kernel: lab5(196647): panic: sys_umap_data_fb failed
+Nov 16 17:01:08 minix kernel: syslib:panic.c: stacktrace: 0x80a8706 0x80a647f 0x80a1e23 0x805555e 0x806bb04 0x806423b 0x8048464 0x8061902 0x806be7c 0x80ffeeb 0x804881f 0x804839e 0x80481eb 0x8048118 
+Nov 16 17:01:50 minix kernel: 
+Nov 16 17:01:50 minix kernel: video::video_test_init(0x105, 10)
+Nov 16 17:01:50 minix kernel: video_test_init(0x105, 10): under construction
+Nov 16 17:02:45 minix su: lcom to root on /dev/console
+Nov 16 17:20:53 minix syslogd[559]: -- MARK --
+Nov 16 17:27:19 minix kernel: 
+Nov 16 17:27:19 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 16 17:27:19 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 16 17:27:19 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 16 17:27:19 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 16 17:40:53 minix syslogd[559]: -- MARK --
+Nov 16 17:49:51 minix su: lcom to root on /dev/console
+Nov 16 18:00:53 minix syslogd[559]: -- MARK --
+Nov 16 18:03:29 minix login: root to lcom on tty console
+Nov 16 18:03:29 minix login: Cannot update lastlogx: Invalid argument
+Nov 16 18:14:12 minix kernel: 
+Nov 16 18:14:12 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 16 18:14:12 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 16 18:14:12 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 16 18:14:12 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 16 18:14:26 minix kernel: 
+Nov 16 18:14:26 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:14:26 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:14:26 minix kernel: 
+Nov 16 18:14:26 minix kernel: ^[[0m@^[[2;0;2;31mvideo_gr.c^[[0m:^[[2;0;2;31m41^[[0m => ^[[1msys_int86(^[[0m^[[2;0;1;31m&r^[[0m^[[1m)^[[0m
+Nov 16 18:14:26 minix kernel:                            ^[[2;0;1;32m^~^[[0m^[[0m
+Nov 16 18:14:26 minix kernel: [from ^[[1mvg_init^[[0m]
+Nov 16 18:14:26 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 16 18:16:09 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:16:09 minix kernel: SYSTEM: denied request 20 from 360492.
+Nov 16 18:16:09 minix kernel: set_vbe_mode: sys_int86() failed 
+Nov 16 18:16:11 minix kernel: SYSTEM: denied request 20 from 360492.
+Nov 16 18:16:11 minix kernel: int lcf::vgSetMinixTextMode(): sys_int86() failed 
+Nov 16 18:16:11 minix kernel: 0
+Nov 16 18:16:20 minix kernel: 
+Nov 16 18:16:20 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:16:20 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:16:20 minix kernel: SYSTEM: denied request 20 from 360493.
+Nov 16 18:16:20 minix kernel: set_vbe_mode: sys_int86() failed 
+Nov 16 18:16:22 minix kernel: SYSTEM: denied request 20 from 360493.
+Nov 16 18:16:22 minix kernel: int lcf::vgSetMinixTextMode(): sys_int86() failed 
+Nov 16 18:16:22 minix kernel: 0
+Nov 16 18:17:32 minix kernel: 
+Nov 16 18:17:32 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:17:32 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:17:32 minix kernel: SYSTEM: denied request 20 from 360494.
+Nov 16 18:17:32 minix kernel: set_vbe_mode: sys_int86() failed 
+Nov 16 18:17:34 minix kernel: SYSTEM: denied request 20 from 360494.
+Nov 16 18:17:34 minix kernel: int lcf::vgSetMinixTextMode(): sys_int86() failed 
+Nov 16 18:17:34 minix kernel: 0
+Nov 16 18:18:12 minix kernel: 
+Nov 16 18:18:12 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:18:12 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:18:12 minix kernel: SYSTEM: denied request 20 from 360495.
+Nov 16 18:18:12 minix kernel: set_vbe_mode: sys_int86() failed 
+Nov 16 18:18:14 minix kernel: SYSTEM: denied request 20 from 360495.
+Nov 16 18:18:14 minix kernel: int lcf::vgSetMinixTextMode(): sys_int86() failed 
+Nov 16 18:18:14 minix kernel: 0
+Nov 16 18:19:33 minix kernel: 
+Nov 16 18:19:33 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:19:33 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:19:33 minix kernel: SYSTEM: denied request 4 from 262192.
+Nov 16 18:19:33 minix kernel: lab5(262192): panic: sys_privctl (ADD_MEM) failed: -210
+Nov 16 18:19:33 minix kernel: 
+Nov 16 18:19:33 minix kernel: syslib:panic.c: stacktrace: 0x80a8886 0x80486ce 0x8062d18 0x8048454 0x8061a82 0x806bffc 0x810006b 0x804899f 0x804839e 0x80481eb 0x8048118 
+Nov 16 18:20:55 minix kernel: 
+Nov 16 18:20:55 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:20:55 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:20:55 minix kernel: SYSTEM: denied request 20 from 262193.
+Nov 16 18:20:55 minix kernel: set_vbe_mode: sys_int86() failed 
+Nov 16 18:20:57 minix kernel: SYSTEM: denied request 20 from 262193.
+Nov 16 18:20:57 minix kernel: int lcf::vgSetMinixTextMode(): sys_int86() failed 
+Nov 16 18:20:57 minix kernel: 0
+Nov 16 18:25:10 minix kernel: 
+Nov 16 18:25:10 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:25:10 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:25:10 minix kernel: 
+Nov 16 18:25:10 minix kernel: ^[[0m@^[[2;0;2;31mvideo_gr.c^[[0m:^[[2;0;2;31m64^[[0m => ^[[1mvm_map_phys(^[[0m^[[2;0;1;31mSELF, (void *)mr.mr_base, vram_size^[[0m^[[1m)^[[0m
+Nov 16 18:25:10 minix kernel:                                    ^[[2;0;1;32m^~~~~~~~~~~~~~~~~~^[[0m^[[0m
+Nov 16 18:25:10 minix kernel: [from ^[[1mvg_init^[[0m]
+Nov 16 18:25:10 minix kernel: ^[[2;0;2;31merror: ^[[0mpassed null pointer(s)!
+Nov 16 18:27:34 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:27:34 minix kernel: 
+Nov 16 18:27:34 minix kernel: ^[[0m@^[[2;0;2;31mvideo_gr.c^[[0m:^[[2;0;2;31m72^[[0m => ^[[1mvm_map_phys(^[[0m^[[2;0;1;31mSELF, (void *)mr.mr_base, vram_size^[[0m^[[1m)^[[0m
+Nov 16 18:27:34 minix kernel:                                    ^[[2;0;1;32m^~~~~~~~~~~~~~~~~~^[[0m^[[0m
+Nov 16 18:27:34 minix kernel: [from ^[[1mvg_init^[[0m]
+Nov 16 18:27:34 minix kernel: ^[[2;0;2;31merror: ^[[0mpassed null pointer(s)!
+Nov 16 18:30:48 minix login: root to lcom on tty ttyc1
+Nov 16 18:30:48 minix login: Cannot update lastlogx: Invalid argument
+Nov 16 18:32:41 minix poweroff: powered off by lcom
+Nov 16 18:32:41 minix dhcpcd[479]: received SIGTERM, stopping
+Nov 16 18:32:41 minix syslogd[559]: Exiting on signal 15
+Nov 16 18:33:03 minix syslogd[525]: restart
+Nov 16 18:33:03 minix kernel: 
+Nov 16 18:33:03 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 16 18:33:03 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 16 18:33:03 minix kernel: Started VFS: 9 worker thread(s)
+Nov 16 18:33:04 minix sshd[604]: Server listening on :: port 22.
+Nov 16 18:33:04 minix sshd[604]: Server listening on 0.0.0.0 port 22.
+Nov 16 18:33:14 minix dhcpcd[445]: le0: no IPv6 Routers available
+Nov 16 18:33:14 minix login: root to lcom on tty console
+Nov 16 18:33:14 minix login: Cannot update lastlogx: Invalid argument
+Nov 16 18:35:22 minix kernel: 
+Nov 16 18:35:22 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 16 18:35:22 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 16 18:35:22 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 16 18:35:22 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 16 18:36:49 minix syslogd[555]: restart
+Nov 16 18:36:49 minix kernel: 
+Nov 16 18:36:49 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 16 18:36:49 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 16 18:36:49 minix kernel: Started VFS: 9 worker thread(s)
+Nov 16 18:36:49 minix sshd[634]: Server listening on :: port 22.
+Nov 16 18:36:49 minix sshd[634]: Server listening on 0.0.0.0 port 22.
+Nov 16 18:36:56 minix login: root to lcom on tty console
+Nov 16 18:36:56 minix login: Cannot update lastlogx: Invalid argument
+Nov 16 18:36:59 minix dhcpcd[475]: le0: no IPv6 Routers available
+Nov 16 18:43:51 minix kernel: 
+Nov 16 18:43:51 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:43:51 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:43:51 minix kernel: VM: unauthorized mapping of 0xe0000000 by 196647 for 196647
+Nov 16 18:43:51 minix kernel: lab5(196647): panic: couldn't map video memory
+Nov 16 18:43:51 minix kernel: syslib:panic.c: stacktrace: 0x80a8936 0x804878e 0x8062dc8 0x8048454 0x8061b32 0x806c0ac 0x810011b 0x8048a4f 0x804839e 0x80481eb 0x8048118 
+Nov 16 18:45:15 minix syslogd[531]: restart
+Nov 16 18:45:15 minix kernel: 
+Nov 16 18:45:15 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 16 18:45:15 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 16 18:45:15 minix kernel: Started VFS: 9 worker thread(s)
+Nov 16 18:45:15 minix sshd[610]: Server listening on :: port 22.
+Nov 16 18:45:15 minix sshd[610]: Server listening on 0.0.0.0 port 22.
+Nov 16 18:45:21 minix login: root to lcom on tty console
+Nov 16 18:45:21 minix login: Cannot update lastlogx: Invalid argument
+Nov 16 18:45:25 minix dhcpcd[451]: le0: no IPv6 Routers available
+Nov 16 18:45:47 minix sshd[665]: Accepted password for lcom from 10.0.2.2 port 34468 ssh2
+Nov 16 18:45:47 minix sshd[666]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 16 18:45:47 minix sshd[666]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 16 18:45:47 minix sshd[666]: utmp_write_direct: tty not found
+Nov 16 18:45:47 minix sshd[666]: utmp_perform_login: utmp_write_direct() failed
+Nov 16 18:46:39 minix kernel: 
+Nov 16 18:46:39 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:46:39 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:46:39 minix kernel: VM: unauthorized mapping of 0xe0000000 by 163878 for 163878
+Nov 16 18:46:39 minix kernel: lab5(163878): panic: couldn't map video memory
+Nov 16 18:46:39 minix kernel: syslib:panic.c: stacktrace: 0x80a8966 0x80487be 0x8062df8 0x8048454 0x8061b62 0x806c0dc 0x810014b 0x8048a7f 0x804839e 0x80481eb 0x8048118 
+Nov 16 18:47:02 minix su: lcom to root on /dev/pts/0
+Nov 16 18:52:40 minix poweroff: powered off by root
+Nov 16 18:52:40 minix dhcpcd[451]: received SIGTERM, stopping
+Nov 16 18:52:40 minix syslogd[531]: Exiting on signal 15
+Nov 16 18:53:06 minix syslogd[525]: restart
+Nov 16 18:53:06 minix kernel: 
+Nov 16 18:53:06 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 16 18:53:06 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 16 18:53:06 minix kernel: Started VFS: 9 worker thread(s)
+Nov 16 18:53:06 minix sshd[604]: Server listening on :: port 22.
+Nov 16 18:53:06 minix sshd[604]: Server listening on 0.0.0.0 port 22.
+Nov 16 18:53:16 minix dhcpcd[445]: le0: no IPv6 Routers available
+Nov 16 18:53:35 minix login: root to lcom on tty console
+Nov 16 18:53:35 minix login: Cannot update lastlogx: Invalid argument
+Nov 16 18:54:14 minix kernel: 
+Nov 16 18:54:14 minix kernel: video::video_test_init(0x105, 2)
+Nov 16 18:54:14 minix kernel: video_test_init(0x105, 2): under construction
+Nov 16 18:54:16 minix kernel: a
+Nov 16 18:54:16 minix kernel: ef5fd000
+Nov 16 19:00:22 minix kernel: 
+Nov 16 19:00:22 minix kernel: video::video_test_init(0x11a, 2)
+Nov 16 19:00:22 minix kernel: video_test_init(0x11a, 2): under construction
+Nov 16 19:00:24 minix kernel: a
+Nov 16 19:00:24 minix kernel: ee7fd000
+Nov 16 19:05:56 minix poweroff: powered off by lcom
+Nov 16 19:05:56 minix dhcpcd[445]: received SIGTERM, stopping
+Nov 16 19:05:56 minix syslogd[525]: Exiting on signal 15
+Nov 17 00:54:29 minix syslogd[561]: restart
+Nov 17 00:54:29 minix kernel: 
+Nov 17 00:54:29 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 17 00:54:29 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 17 00:54:29 minix kernel: Started VFS: 9 worker thread(s)
+Nov 17 00:54:29 minix sshd[643]: Server listening on :: port 22.
+Nov 17 00:54:29 minix sshd[643]: Server listening on 0.0.0.0 port 22.
+Nov 17 00:54:37 minix login: root to lcom on tty console
+Nov 17 00:54:37 minix login: Cannot update lastlogx: Invalid argument
+Nov 17 00:54:37 minix dhcpcd[481]: le0: no IPv6 Routers available
+Nov 17 00:54:43 minix sshd[716]: Accepted password for lcom from 10.0.2.2 port 46502 ssh2
+Nov 17 00:54:43 minix sshd[717]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 00:54:43 minix sshd[717]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 00:54:43 minix sshd[717]: utmp_write_direct: tty not found
+Nov 17 00:54:43 minix sshd[717]: utmp_perform_login: utmp_write_direct() failed
+Nov 17 01:14:29 minix syslogd[561]: -- MARK --
+Nov 17 01:34:29 minix syslogd[561]: -- MARK --
+Nov 17 01:42:59 minix kernel: 
+Nov 17 01:42:59 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 17 01:42:59 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 17 01:42:59 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 17 01:42:59 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 17 01:43:34 minix kernel: 
+Nov 17 01:43:34 minix kernel: video::video_test_rectangle(0x105, 50, 50, 50, 50, 0x00000005)
+Nov 17 01:43:34 minix kernel: video_test_rectangle(0x105, 50, 50, 50, 50, 0x00000005): under construction
+Nov 17 01:43:35 minix kernel: lm_alloc: run out of low memory!
+Nov 17 01:43:35 minix kernel: int vbe_get_mode_info(__uint16_t, vbe_mode_info_t *): failed to allocate low memory.
+Nov 17 01:43:35 minix kernel: VM: unauthorized mapping of 0xeffff478 by 196647 for 196647
+Nov 17 01:43:35 minix kernel: lab5(196647): panic: couldn't map video memory
+Nov 17 01:43:35 minix kernel: syslib:panic.c: stacktrace: 0x80a8ba6 0x8048877 0x8063038 0x804853a 0x80624ed 0x806c976 0x810038b 0x8048cbf 0x804839e 0x80481eb 0x8048118 
+Nov 17 01:44:15 minix poweroff: powered off by lcom
+Nov 17 01:44:15 minix dhcpcd[481]: received SIGTERM, stopping
+Nov 17 01:44:15 minix syslogd[561]: Exiting on signal 15
+Nov 17 01:44:41 minix syslogd[525]: restart
+Nov 17 01:44:41 minix kernel: 
+Nov 17 01:44:41 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 17 01:44:41 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 17 01:44:41 minix kernel: Started VFS: 9 worker thread(s)
+Nov 17 01:44:41 minix sshd[604]: Server listening on :: port 22.
+Nov 17 01:44:41 minix sshd[604]: Server listening on 0.0.0.0 port 22.
+Nov 17 01:44:47 minix login: root to lcom on tty console
+Nov 17 01:44:47 minix login: Cannot update lastlogx: Invalid argument
+Nov 17 01:44:51 minix dhcpcd[445]: le0: no IPv6 Routers available
+Nov 17 01:44:52 minix sshd[659]: Accepted password for lcom from 10.0.2.2 port 46714 ssh2
+Nov 17 01:44:53 minix sshd[660]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 01:44:53 minix sshd[660]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 01:44:53 minix sshd[660]: utmp_write_direct: tty not found
+Nov 17 01:44:53 minix sshd[660]: utmp_perform_login: utmp_write_direct() failed
+Nov 17 01:47:18 minix su: lcom to root on /dev/pts/0
+Nov 17 02:00:58 minix kernel: 
+Nov 17 02:00:58 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 17 02:00:58 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 17 02:00:58 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 17 02:00:58 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 17 02:01:33 minix kernel: 
+Nov 17 02:01:33 minix kernel: video::video_test_rectangle(0x105, 10, 10, 50, 50, 0x00000005)
+Nov 17 02:01:33 minix kernel: video_test_rectangle(0x105, 10, 10, 50, 50, 0x00000005): under construction
+Nov 17 02:01:33 minix kernel: lm_alloc: run out of low memory!
+Nov 17 02:01:33 minix kernel: int vbe_get_mode_info(__uint16_t, vbe_mode_info_t *): failed to allocate low memory.
+Nov 17 02:01:33 minix kernel: VM: unauthorized mapping of 0xeffff418 by 163879 for 163879
+Nov 17 02:01:33 minix kernel: lab5(163879): panic: couldn't map video memory
+Nov 17 02:01:33 minix kernel: syslib:panic.c: stacktrace: 0x80a8f96 0x8048a17 0x8063428 0x804857d 0x80628dd 0x806cd66 0x810077b 0x80490af 0x804839e 0x80481eb 0x8048118 
+Nov 17 02:06:07 minix kernel: 
+Nov 17 02:06:07 minix kernel: video::video_test_init(0x105, 2)
+Nov 17 02:06:07 minix kernel: lm_alloc: run out of low memory!
+Nov 17 02:06:07 minix kernel: int vbe_get_mode_info(__uint16_t, vbe_mode_info_t *): failed to allocate low memory.
+Nov 17 02:06:07 minix kernel: VM: unauthorized mapping of 0xeffff4e0 by 163880 for 163880
+Nov 17 02:06:07 minix kernel: lab5(163880): panic: couldn't map video memory
+Nov 17 02:06:07 minix kernel: syslib:panic.c: stacktrace: 0x80a8f96 0x8048a17 0x8063428 0x8048413 0x8062192 0x806c70c 0x810077b 0x80490af 0x804839e 0x80481eb 0x8048118 
+Nov 17 02:06:20 minix sshd[659]: utmp_write_direct: tty not found
+Nov 17 02:06:20 minix sshd[659]: utmp_perform_logout: utmp_write_direct() failed
+Nov 17 02:06:20 minix sshd[659]: Received disconnect from 10.0.2.2 port 46714:11: disconnected by user
+Nov 17 02:06:20 minix sshd[659]: Disconnected from 10.0.2.2 port 46714
+Nov 17 02:06:33 minix sshd[909]: Accepted password for lcom from 10.0.2.2 port 46726 ssh2
+Nov 17 02:06:33 minix sshd[910]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 02:06:33 minix sshd[910]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 02:06:33 minix sshd[910]: utmp_write_direct: tty not found
+Nov 17 02:06:33 minix sshd[910]: utmp_perform_login: utmp_write_direct() failed
+Nov 17 02:06:36 minix poweroff: powered off by lcom
+Nov 17 02:06:36 minix dhcpcd[445]: received SIGTERM, stopping
+Nov 17 02:06:36 minix syslogd[525]: Exiting on signal 15
+Nov 17 02:09:29 minix syslogd[525]: restart
+Nov 17 02:09:29 minix kernel: 
+Nov 17 02:09:29 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 17 02:09:29 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 17 02:09:29 minix kernel: Started VFS: 9 worker thread(s)
+Nov 17 02:09:29 minix sshd[604]: Server listening on :: port 22.
+Nov 17 02:09:29 minix sshd[604]: Server listening on 0.0.0.0 port 22.
+Nov 17 02:09:36 minix login: root to lcom on tty console
+Nov 17 02:09:36 minix login: Cannot update lastlogx: Invalid argument
+Nov 17 02:09:39 minix dhcpcd[445]: le0: no IPv6 Routers available
+Nov 17 02:09:42 minix sshd[659]: Accepted password for lcom from 10.0.2.2 port 46728 ssh2
+Nov 17 02:09:42 minix sshd[660]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 02:09:42 minix sshd[660]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 02:09:42 minix sshd[660]: utmp_write_direct: tty not found
+Nov 17 02:09:42 minix sshd[660]: utmp_perform_login: utmp_write_direct() failed
+Nov 17 02:11:12 minix su: lcom to root on /dev/console
+Nov 17 02:27:58 minix su: lcom to root on /dev/pts/0
+Nov 17 02:28:23 minix kernel: 
+Nov 17 02:28:23 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 17 02:28:23 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 17 02:28:23 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 17 02:28:23 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 17 02:28:47 minix kernel: 
+Nov 17 02:28:47 minix kernel: video::video_test_rectangle(0x105, 50, 50, 50, 50, 0x00000005)
+Nov 17 02:28:47 minix kernel: video_test_rectangle(0x105, 50, 50, 50, 50, 0x00000005): under construction
+Nov 17 02:28:47 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0x0 on virt_address 0x0xefafd000
+Nov 17 02:28:47 minix kernel: lm_alloc: got buffer size 256, phys 0x0x8f000 = (0x08000:0x0f000) = virt = 0x0xefafb000
+Nov 17 02:28:47 minix kernel: 
+Nov 17 02:28:47 minix kernel: ^[[0m@^[[2;0;2;31mvideo_gr.c^[[0m:^[[2;0;2;31m54^[[0m => ^[[1msys_int86(^[[0m^[[2;0;1;31m&r^[[0m^[[1m)^[[0m
+Nov 17 02:28:47 minix kernel:                            ^[[2;0;1;32m^~^[[0m^[[0m
+Nov 17 02:28:47 minix kernel: [from ^[[1mvbe_get_info^[[0m]
+Nov 17 02:28:47 minix kernel: ^[[2;0;2;31merror: ^[[0minvalid parameter(s)!
+Nov 17 02:30:04 minix kernel: video_test_rectangle(0x105, 50, 50, 50, 50, 0x00000005): under construction
+Nov 17 02:30:04 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0x0 on virt_address 0x0xefafd000
+Nov 17 02:30:04 minix kernel: lm_alloc: got buffer size 256, phys 0x0x8d000 = (0x08000:0x0d000) = virt = 0x0xefafb000
+Nov 17 02:30:04 minix kernel: lm_free: released buffer size 256, phys 0x0x8d000, virt 0x0xefafb000
+Nov 17 02:30:04 minix kernel: Makecode: 0x9c
+Nov 17 02:30:05 minix kernel: Breakcode: 0x01
+Nov 17 02:30:05 minix kernel: Makecode: 0x81
+Nov 17 02:30:05 minix kernel: ef4fc000
+Nov 17 02:49:29 minix syslogd[525]: -- MARK --
+Nov 17 02:57:04 minix poweroff: powered off by lcom
+Nov 17 02:57:04 minix dhcpcd[445]: received SIGTERM, stopping
+Nov 17 02:57:04 minix syslogd[525]: Exiting on signal 15
+Nov 17 11:56:19 minix syslogd[525]: restart
+Nov 17 11:56:19 minix kernel: 
+Nov 17 11:56:19 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 17 11:56:19 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 17 11:56:19 minix kernel: Started VFS: 9 worker thread(s)
+Nov 17 11:56:19 minix sshd[607]: Server listening on :: port 22.
+Nov 17 11:56:19 minix sshd[607]: Server listening on 0.0.0.0 port 22.
+Nov 17 11:56:26 minix login: root to lcom on tty console
+Nov 17 11:56:26 minix login: Cannot update lastlogx: Invalid argument
+Nov 17 11:56:27 minix dhcpcd[445]: le0: no IPv6 Routers available
+Nov 17 11:56:28 minix sshd[677]: Accepted password for lcom from 10.0.2.2 port 58590 ssh2
+Nov 17 11:56:29 minix sshd[681]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 11:56:29 minix sshd[681]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 17 11:56:29 minix sshd[681]: utmp_write_direct: tty not found
+Nov 17 11:56:29 minix sshd[681]: utmp_perform_login: utmp_write_direct() failed
+Nov 17 12:16:19 minix syslogd[525]: -- MARK --
+Nov 17 12:36:19 minix syslogd[525]: -- MARK --
+Nov 17 12:56:19 minix syslogd[525]: -- MARK --
+Nov 17 13:16:19 minix syslogd[525]: -- MARK --
+Nov 17 13:36:19 minix syslogd[525]: -- MARK --
+Nov 17 13:56:19 minix syslogd[525]: -- MARK --
+Nov 17 14:16:19 minix syslogd[525]: -- MARK --
+Nov 17 14:36:19 minix syslogd[525]: -- MARK --
+Nov 17 14:56:19 minix syslogd[525]: -- MARK --
+Nov 17 15:16:19 minix syslogd[525]: -- MARK --
+Nov 17 15:25:25 minix poweroff: powered off by lcom
+Nov 17 15:25:25 minix dhcpcd[445]: received SIGTERM, stopping
+Nov 17 15:25:25 minix syslogd[525]: Exiting on signal 15
+Nov 22 15:03:56 minix syslogd[573]: restart
+Nov 22 15:03:56 minix kernel: 
+Nov 22 15:03:56 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 22 15:03:56 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 22 15:03:56 minix kernel: Started VFS: 9 worker thread(s)
+Nov 22 15:03:56 minix sshd[655]: Server listening on :: port 22.
+Nov 22 15:03:56 minix sshd[655]: Server listening on 0.0.0.0 port 22.
+Nov 22 15:04:03 minix reboot: rebooted by root
+Nov 22 15:04:03 minix syslogd[573]: Exiting on signal 15
+Nov 22 15:04:20 minix syslogd[527]: restart
+Nov 22 15:04:20 minix kernel: 
+Nov 22 15:04:20 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 22 15:04:20 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 22 15:04:20 minix kernel: Started VFS: 9 worker thread(s)
+Nov 22 15:04:20 minix sshd[606]: Server listening on :: port 22.
+Nov 22 15:04:20 minix sshd[606]: Server listening on 0.0.0.0 port 22.
+Nov 22 15:04:30 minix dhcpcd[447]: le0: no IPv6 Routers available
+Nov 22 15:05:27 minix login: root to lcom on tty console
+Nov 22 15:05:27 minix login: Cannot update lastlogx: Invalid argument
+Nov 22 15:07:18 minix sshd[663]: Accepted password for lcom from 10.0.2.2 port 57436 ssh2
+Nov 22 15:07:18 minix sshd[664]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 22 15:07:18 minix sshd[664]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 22 15:07:18 minix sshd[664]: utmp_write_direct: tty not found
+Nov 22 15:07:18 minix sshd[664]: utmp_perform_login: utmp_write_direct() failed
+Nov 22 15:09:02 minix kernel: 
+Nov 22 15:09:02 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 22 15:09:02 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 22 15:09:02 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 22 15:09:02 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 22 15:09:17 minix kernel: 
+Nov 22 15:09:17 minix kernel: video::video_test_init(0x105, 2)
+Nov 22 15:09:17 minix kernel: video_test_init(0x105, 2): under construction
+Nov 22 15:09:19 minix kernel: a
+Nov 22 15:09:19 minix kernel: ef5fd000
+Nov 22 15:09:21 minix kernel: 
+Nov 22 15:09:21 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 22 15:09:21 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 22 15:09:21 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 22 15:09:21 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 22 15:09:51 minix kernel: 
+Nov 22 15:09:51 minix kernel: video::video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000002)
+Nov 22 15:09:51 minix kernel: video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000002): under construction
+Nov 22 15:10:14 minix kernel: 
+Nov 22 15:10:14 minix kernel: video::video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000002)
+Nov 22 15:10:14 minix kernel: video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000002): under construction
+Nov 22 15:12:44 minix kernel: 
+Nov 22 15:12:44 minix kernel: video::video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000002)
+Nov 22 15:12:44 minix kernel: video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000002): under construction
+Nov 22 15:12:44 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:12:44 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:12:44 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:12:44 minix kernel: Makecode: 0x9c
+Nov 22 15:12:46 minix kernel: Breakcode: 0x01
+Nov 22 15:12:46 minix kernel: Makecode: 0x81
+Nov 22 15:12:46 minix kernel: ef4fc000
+Nov 22 15:12:51 minix kernel: 
+Nov 22 15:12:51 minix kernel: video::video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000003)
+Nov 22 15:12:51 minix kernel: video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000003): under construction
+Nov 22 15:12:51 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:12:51 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:12:51 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:12:51 minix kernel: Makecode: 0x9c
+Nov 22 15:12:53 minix kernel: Breakcode: 0x01
+Nov 22 15:12:53 minix kernel: Makecode: 0x81
+Nov 22 15:12:53 minix kernel: ef4fc000
+Nov 22 15:12:55 minix kernel: 
+Nov 22 15:12:55 minix kernel: video::video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000004)
+Nov 22 15:12:55 minix kernel: video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000004): under construction
+Nov 22 15:12:55 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:12:55 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:12:55 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:12:55 minix kernel: Makecode: 0x9c
+Nov 22 15:12:56 minix kernel: Breakcode: 0x01
+Nov 22 15:12:56 minix kernel: Makecode: 0x81
+Nov 22 15:12:56 minix kernel: ef4fc000
+Nov 22 15:13:29 minix kernel: 
+Nov 22 15:13:29 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00000004)
+Nov 22 15:13:29 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00000004): under construction
+Nov 22 15:13:29 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:13:29 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:13:29 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:13:29 minix kernel: Makecode: 0x9c
+Nov 22 15:13:32 minix kernel: Breakcode: 0x01
+Nov 22 15:13:32 minix kernel: Makecode: 0x81
+Nov 22 15:13:32 minix kernel: ee6fc000
+Nov 22 15:13:35 minix kernel: 
+Nov 22 15:13:35 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00000004)
+Nov 22 15:13:35 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00000004): under construction
+Nov 22 15:13:35 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:13:35 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:13:35 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:13:35 minix kernel: Makecode: 0x9c
+Nov 22 15:13:38 minix kernel: Breakcode: 0x01
+Nov 22 15:13:38 minix kernel: Makecode: 0x81
+Nov 22 15:13:38 minix kernel: ee6fc000
+Nov 22 15:13:54 minix kernel: 
+Nov 22 15:13:54 minix kernel: video::video_test_rectangle(0x115, 50, 50, 100, 50, 0x00000004)
+Nov 22 15:13:54 minix kernel: video_test_rectangle(0x115, 50, 50, 100, 50, 0x00000004): under construction
+Nov 22 15:13:54 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:13:54 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:13:54 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:13:54 minix kernel: Makecode: 0x9c
+Nov 22 15:13:56 minix kernel: Breakcode: 0x01
+Nov 22 15:13:56 minix kernel: Makecode: 0x81
+Nov 22 15:13:56 minix kernel: eefff000
+Nov 22 15:14:12 minix kernel: 
+Nov 22 15:14:12 minix kernel: video::video_test_rectangle(0x115, 50, 50, 100, 50, 0x00ff0000)
+Nov 22 15:14:12 minix kernel: video_test_rectangle(0x115, 50, 50, 100, 50, 0x00ff0000): under construction
+Nov 22 15:14:12 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:14:12 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:14:12 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:14:12 minix kernel: Makecode: 0x9c
+Nov 22 15:14:13 minix kernel: Breakcode: 0x01
+Nov 22 15:14:14 minix kernel: Makecode: 0x81
+Nov 22 15:14:14 minix kernel: eefff000
+Nov 22 15:14:43 minix kernel: 
+Nov 22 15:14:43 minix kernel: video::video_test_rectangle(0x115, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:14:43 minix kernel: video_test_rectangle(0x115, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:14:43 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:14:43 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:14:43 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:14:43 minix kernel: Makecode: 0x9c
+Nov 22 15:14:47 minix kernel: Breakcode: 0x01
+Nov 22 15:14:47 minix kernel: Makecode: 0x81
+Nov 22 15:14:47 minix kernel: eefff000
+Nov 22 15:15:00 minix kernel: 
+Nov 22 15:15:00 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:15:00 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:15:00 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:00 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:00 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:00 minix kernel: Makecode: 0x9c
+Nov 22 15:15:03 minix kernel: Breakcode: 0x01
+Nov 22 15:15:03 minix kernel: Makecode: 0x81
+Nov 22 15:15:03 minix kernel: ee6fc000
+Nov 22 15:15:18 minix kernel: 
+Nov 22 15:15:18 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x0000ff55)
+Nov 22 15:15:18 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x0000ff55): under construction
+Nov 22 15:15:18 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:18 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:18 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:18 minix kernel: Makecode: 0x9c
+Nov 22 15:15:19 minix kernel: Breakcode: 0x01
+Nov 22 15:15:20 minix kernel: Makecode: 0x81
+Nov 22 15:15:20 minix kernel: ee6fc000
+Nov 22 15:15:24 minix kernel: 
+Nov 22 15:15:24 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00000055)
+Nov 22 15:15:24 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00000055): under construction
+Nov 22 15:15:24 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:24 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:24 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:24 minix kernel: Makecode: 0x9c
+Nov 22 15:15:25 minix kernel: Breakcode: 0x01
+Nov 22 15:15:25 minix kernel: Makecode: 0x81
+Nov 22 15:15:25 minix kernel: ee6fc000
+Nov 22 15:15:31 minix kernel: 
+Nov 22 15:15:31 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00005555)
+Nov 22 15:15:31 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00005555): under construction
+Nov 22 15:15:31 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:31 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:31 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:31 minix kernel: Makecode: 0x9c
+Nov 22 15:15:32 minix kernel: Breakcode: 0x01
+Nov 22 15:15:32 minix kernel: Makecode: 0x81
+Nov 22 15:15:32 minix kernel: ee6fc000
+Nov 22 15:15:37 minix kernel: 
+Nov 22 15:15:37 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00555555)
+Nov 22 15:15:37 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00555555): under construction
+Nov 22 15:15:37 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:37 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:37 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:37 minix kernel: Makecode: 0x9c
+Nov 22 15:15:38 minix kernel: Breakcode: 0x01
+Nov 22 15:15:38 minix kernel: Makecode: 0x81
+Nov 22 15:15:38 minix kernel: ee6fc000
+Nov 22 15:15:40 minix kernel: 
+Nov 22 15:15:40 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00555556)
+Nov 22 15:15:40 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00555556): under construction
+Nov 22 15:15:40 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:40 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:40 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:40 minix kernel: Makecode: 0x9c
+Nov 22 15:15:42 minix kernel: Breakcode: 0x01
+Nov 22 15:15:42 minix kernel: Makecode: 0x81
+Nov 22 15:15:42 minix kernel: ee6fc000
+Nov 22 15:15:44 minix kernel: 
+Nov 22 15:15:44 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x005555ff)
+Nov 22 15:15:44 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x005555ff): under construction
+Nov 22 15:15:44 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:44 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:44 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:44 minix kernel: Makecode: 0x9c
+Nov 22 15:15:45 minix kernel: Breakcode: 0x01
+Nov 22 15:15:45 minix kernel: Makecode: 0x81
+Nov 22 15:15:45 minix kernel: ee6fc000
+Nov 22 15:15:53 minix kernel: 
+Nov 22 15:15:53 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00000000)
+Nov 22 15:15:53 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00000000): under construction
+Nov 22 15:15:53 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:53 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:53 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:53 minix kernel: Makecode: 0x9c
+Nov 22 15:15:54 minix kernel: Breakcode: 0x01
+Nov 22 15:15:55 minix kernel: Makecode: 0x81
+Nov 22 15:15:55 minix kernel: ee6fc000
+Nov 22 15:15:56 minix kernel: 
+Nov 22 15:15:56 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00000001)
+Nov 22 15:15:56 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00000001): under construction
+Nov 22 15:15:56 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:56 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:56 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:57 minix kernel: Makecode: 0x9c
+Nov 22 15:15:57 minix kernel: Breakcode: 0x01
+Nov 22 15:15:58 minix kernel: Makecode: 0x81
+Nov 22 15:15:58 minix kernel: ee6fc000
+Nov 22 15:15:59 minix kernel: 
+Nov 22 15:15:59 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00000002)
+Nov 22 15:15:59 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00000002): under construction
+Nov 22 15:15:59 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:15:59 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:15:59 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:15:59 minix kernel: Makecode: 0x9c
+Nov 22 15:16:00 minix kernel: Breakcode: 0x01
+Nov 22 15:16:00 minix kernel: Makecode: 0x81
+Nov 22 15:16:00 minix kernel: ee6fc000
+Nov 22 15:16:04 minix kernel: 
+Nov 22 15:16:04 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00000003)
+Nov 22 15:16:04 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00000003): under construction
+Nov 22 15:16:04 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:16:04 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:16:04 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:16:04 minix kernel: Makecode: 0x9c
+Nov 22 15:16:05 minix kernel: Breakcode: 0x01
+Nov 22 15:16:05 minix kernel: Makecode: 0x81
+Nov 22 15:16:05 minix kernel: ee6fc000
+Nov 22 15:16:07 minix kernel: 
+Nov 22 15:16:07 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x0000000f)
+Nov 22 15:16:07 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x0000000f): under construction
+Nov 22 15:16:07 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:16:07 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:16:07 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:16:07 minix kernel: Makecode: 0x9c
+Nov 22 15:16:08 minix kernel: Breakcode: 0x01
+Nov 22 15:16:08 minix kernel: Makecode: 0x81
+Nov 22 15:16:08 minix kernel: ee6fc000
+Nov 22 15:16:11 minix kernel: 
+Nov 22 15:16:11 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:16:11 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:16:11 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:16:11 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:16:11 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:16:11 minix kernel: Makecode: 0x9c
+Nov 22 15:16:12 minix kernel: Breakcode: 0x01
+Nov 22 15:16:12 minix kernel: Makecode: 0x81
+Nov 22 15:16:12 minix kernel: ee6fc000
+Nov 22 15:16:14 minix kernel: 
+Nov 22 15:16:14 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x00000fff)
+Nov 22 15:16:14 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x00000fff): under construction
+Nov 22 15:16:14 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:16:14 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:16:14 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:16:14 minix kernel: Makecode: 0x9c
+Nov 22 15:16:14 minix kernel: Breakcode: 0x01
+Nov 22 15:16:14 minix kernel: Makecode: 0x81
+Nov 22 15:16:14 minix kernel: ee6fc000
+Nov 22 15:16:18 minix kernel: 
+Nov 22 15:16:18 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x0000ffff)
+Nov 22 15:16:18 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x0000ffff): under construction
+Nov 22 15:16:18 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:16:18 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:16:18 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:16:18 minix kernel: Makecode: 0x9c
+Nov 22 15:16:19 minix kernel: Breakcode: 0x01
+Nov 22 15:16:19 minix kernel: Makecode: 0x81
+Nov 22 15:16:19 minix kernel: ee6fc000
+Nov 22 15:16:21 minix kernel: 
+Nov 22 15:16:21 minix kernel: video::video_test_rectangle(0x11a, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:16:21 minix kernel: video_test_rectangle(0x11A, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:16:21 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:16:21 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:16:21 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:16:21 minix kernel: Makecode: 0x9c
+Nov 22 15:16:22 minix kernel: Breakcode: 0x01
+Nov 22 15:16:22 minix kernel: Makecode: 0x81
+Nov 22 15:16:22 minix kernel: ee6fc000
+Nov 22 15:16:34 minix kernel: 
+Nov 22 15:16:34 minix kernel: video::video_test_rectangle(0x14c, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:16:34 minix kernel: video_test_rectangle(0x14C, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:16:34 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:16:34 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:16:34 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:16:34 minix kernel: Makecode: 0x9c
+Nov 22 15:16:35 minix kernel: Breakcode: 0x01
+Nov 22 15:16:35 minix kernel: Makecode: 0x81
+Nov 22 15:16:35 minix kernel: edc9c000
+Nov 22 15:17:07 minix kernel: 
+Nov 22 15:17:07 minix kernel: video::video_test_rectangle(0x14c, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:17:07 minix kernel: video_test_rectangle(0x14C, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:17:07 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:17:07 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:17:07 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:17:07 minix kernel: Makecode: 0x9c
+Nov 22 15:17:07 minix kernel: Makecode: 0xe0
+Nov 22 15:17:07 minix kernel: Breakcode: 0x48
+Nov 22 15:17:08 minix kernel: Makecode: 0xe0
+Nov 22 15:17:08 minix kernel: Makecode: 0xc8
+Nov 22 15:17:08 minix kernel: Breakcode: 0x01
+Nov 22 15:17:08 minix kernel: Makecode: 0x81
+Nov 22 15:17:08 minix kernel: edc9c000
+Nov 22 15:17:12 minix kernel: 
+Nov 22 15:17:12 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 22 15:17:12 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 22 15:17:12 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 22 15:17:12 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 22 15:17:12 minix kernel:  lcom_run lab5 "xpm <xpm (index)> <x> <y>"
+Nov 22 15:17:12 minix kernel:  lcom_run lab5 "move <xpm (index)> <xi> <yi> <xf> <yf> <speed> <fps>"
+Nov 22 15:17:12 minix kernel:  lcom_run lab5 "controller"
+Nov 22 15:42:45 minix kernel: 
+Nov 22 15:42:45 minix kernel: video::video_test_rectangle(0x14c, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:42:45 minix kernel: video_test_rectangle(0x14C, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:42:45 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:42:45 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:42:45 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:42:45 minix kernel: Makecode: 0x9c
+Nov 22 15:42:49 minix kernel: Breakcode: 0x01
+Nov 22 15:42:49 minix kernel: Makecode: 0x81
+Nov 22 15:42:49 minix kernel: ef730000
+Nov 22 15:45:08 minix kernel: 
+Nov 22 15:45:08 minix kernel: video::video_test_rectangle(0x14c, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:45:08 minix kernel: video_test_rectangle(0x14C, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:45:08 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:45:08 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:45:08 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:45:08 minix kernel: VM: unauthorized mapping of 0xe0000000 by 229451 for 229451
+Nov 22 15:45:08 minix kernel: lab5(229451): panic: couldn't map video memory
+Nov 22 15:45:08 minix kernel: syslib:panic.c: stacktrace: 0x80acf16 0x8048dae 0x806621e 0x804857d 0x8064513 0x80701c8 0x81049a2 0x80494bf 0x804839e 0x80481eb 0x8048118 
+Nov 22 15:46:03 minix kernel: 
+Nov 22 15:46:03 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 22 15:46:03 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 22 15:46:03 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 22 15:46:03 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 22 15:46:03 minix kernel:  lcom_run lab5 "xpm <xpm (index)> <x> <y>"
+Nov 22 15:46:03 minix kernel:  lcom_run lab5 "move <xpm (index)> <xi> <yi> <xf> <yf> <speed> <fps>"
+Nov 22 15:46:03 minix kernel:  lcom_run lab5 "controller"
+Nov 22 15:46:12 minix kernel: 
+Nov 22 15:46:12 minix kernel: video::video_test_init(0x105, 2)
+Nov 22 15:46:12 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:46:12 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:46:12 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:46:12 minix kernel: VM: unauthorized mapping of 0xe0000000 by 229453 for 229453
+Nov 22 15:46:12 minix kernel: lab5(229453): panic: couldn't map video memory
+Nov 22 15:46:12 minix kernel: syslib:panic.c: stacktrace: 0x80acf16 0x8048dae 0x806621e 0x8048413 0x8063d5b 0x806fbee 0x81049a2 0x80494bf 0x804839e 0x80481eb 0x8048118 
+Nov 22 15:46:35 minix kernel: 
+Nov 22 15:46:35 minix kernel: video::video_test_init(0x105, 2)
+Nov 22 15:46:35 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:46:35 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:46:35 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:46:37 minix kernel: efa3c000
+Nov 22 15:46:55 minix poweroff: powered off by lcom
+Nov 22 15:46:55 minix dhcpcd[447]: received SIGTERM, stopping
+Nov 22 15:46:55 minix syslogd[527]: Exiting on signal 15
+Nov 22 15:47:17 minix syslogd[527]: restart
+Nov 22 15:47:17 minix kernel: 
+Nov 22 15:47:17 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 22 15:47:17 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 22 15:47:17 minix kernel: Started VFS: 9 worker thread(s)
+Nov 22 15:47:17 minix sshd[606]: Server listening on :: port 22.
+Nov 22 15:47:17 minix sshd[606]: Server listening on 0.0.0.0 port 22.
+Nov 22 15:47:22 minix login: root to lcom on tty console
+Nov 22 15:47:22 minix login: Cannot update lastlogx: Invalid argument
+Nov 22 15:47:25 minix sshd[663]: Accepted password for lcom from 10.0.2.2 port 58046 ssh2
+Nov 22 15:47:25 minix sshd[664]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 22 15:47:25 minix sshd[664]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 22 15:47:25 minix sshd[664]: utmp_write_direct: tty not found
+Nov 22 15:47:25 minix sshd[664]: utmp_perform_login: utmp_write_direct() failed
+Nov 22 15:47:27 minix dhcpcd[447]: le0: no IPv6 Routers available
+Nov 22 15:47:44 minix kernel: 
+Nov 22 15:47:44 minix kernel: video::video_test_init(0x105, 2)
+Nov 22 15:47:44 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:47:44 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:47:44 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:47:46 minix kernel: efa3c000
+Nov 22 15:47:54 minix kernel: 
+Nov 22 15:47:54 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 22 15:47:54 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 22 15:47:54 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 22 15:47:54 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 22 15:47:54 minix kernel:  lcom_run lab5 "xpm <xpm (index)> <x> <y>"
+Nov 22 15:47:54 minix kernel:  lcom_run lab5 "move <xpm (index)> <xi> <yi> <xf> <yf> <speed> <fps>"
+Nov 22 15:47:54 minix kernel:  lcom_run lab5 "controller"
+Nov 22 15:48:18 minix kernel: 
+Nov 22 15:48:18 minix kernel: video::video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000002)
+Nov 22 15:48:18 minix kernel: video_test_rectangle(0x105, 50, 50, 100, 50, 0x00000002): under construction
+Nov 22 15:48:18 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:48:18 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:48:18 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:48:18 minix kernel: Makecode: 0x9c
+Nov 22 15:48:19 minix kernel: Breakcode: 0x01
+Nov 22 15:48:19 minix kernel: Makecode: 0x81
+Nov 22 15:48:19 minix kernel: efa3c000
+Nov 22 15:48:56 minix kernel: 
+Nov 22 15:48:56 minix kernel: video::video_test_rectangle(0x115, 50, 50, 100, 50, 0x00000002)
+Nov 22 15:48:56 minix kernel: video_test_rectangle(0x115, 50, 50, 100, 50, 0x00000002): under construction
+Nov 22 15:48:56 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:48:56 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:48:56 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:48:56 minix kernel: Makecode: 0x9c
+Nov 22 15:48:59 minix kernel: Breakcode: 0x01
+Nov 22 15:48:59 minix kernel: Makecode: 0x81
+Nov 22 15:48:59 minix kernel: ef99c000
+Nov 22 15:49:04 minix kernel: 
+Nov 22 15:49:04 minix kernel: video::video_test_rectangle(0x115, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:49:04 minix kernel: video_test_rectangle(0x115, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:49:04 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:49:04 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:49:04 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:49:04 minix kernel: Makecode: 0x9c
+Nov 22 15:49:14 minix kernel: Breakcode: 0x01
+Nov 22 15:49:14 minix kernel: Makecode: 0x81
+Nov 22 15:49:14 minix kernel: ef99c000
+Nov 22 15:49:36 minix kernel: 
+Nov 22 15:49:36 minix kernel: Usage: one of the following (to test, add "-t <test no.>" at the end):
+Nov 22 15:49:36 minix kernel:  lcom_run lab5 "init <mode (hex)> <delay (seconds)>"
+Nov 22 15:49:36 minix kernel:  lcom_run lab5 "rectangle <mode (hex)> <x> <y> <width> <height> <color (hex)>"
+Nov 22 15:49:36 minix kernel:  lcom_run lab5 "pattern <mode (hex)> <no. of rect.> <first color (hex)> <step>"
+Nov 22 15:49:36 minix kernel:  lcom_run lab5 "xpm <xpm (index)> <x> <y>"
+Nov 22 15:49:36 minix kernel:  lcom_run lab5 "move <xpm (index)> <xi> <yi> <xf> <yf> <speed> <fps>"
+Nov 22 15:49:36 minix kernel:  lcom_run lab5 "controller"
+Nov 22 15:50:42 minix kernel: 
+Nov 22 15:50:42 minix kernel: video::video_test_rectangle(0x115, 50, 50, 100, 50, 0x000000ff)
+Nov 22 15:50:42 minix kernel: video_test_rectangle(0x115, 50, 50, 100, 50, 0x000000ff): under construction
+Nov 22 15:50:42 minix kernel: liblm: mapped low memory with 0x100000 bytes at phy_address 0 on virt_address 0xefafd000
+Nov 22 15:50:42 minix kernel: lm_alloc: got buffer size 256, phys 0x8f000 = (0x08000:0x0f000) = virt = 0xefb8c000
+Nov 22 15:50:42 minix kernel: lm_free: released buffer size 256, phys 0x8f000, virt 0xefb8c000
+Nov 22 15:50:42 minix kernel: Makecode: 0x9c
+Nov 22 15:50:43 minix kernel: Breakcode: 0x01
+Nov 22 15:50:43 minix kernel: Makecode: 0x81
+Nov 22 15:50:43 minix kernel: ef99c000
+Nov 22 15:54:52 minix kernel: VM: pagefault: SIGSEGV 131284 bad addr 0x2; err 0x6 nopage write
+Nov 22 15:54:52 minix kernel: clang    131284 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:54:52 minix kernel: VM: pagefault: SIGSEGV 131284 bad addr 0x2; err 0x6 nopage write
+Nov 22 15:54:52 minix kernel: clang    131284 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:54:52 minix kernel: PM: coredump signal 11 for 887 / clang
+Nov 22 15:54:52 minix kernel: clang    131284 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:58:58 minix kernel: VM: pagefault: SIGSEGV 131311 bad addr 0x2; err 0x6 nopage write
+Nov 22 15:58:58 minix kernel: clang    131311 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:58:58 minix kernel: VM: pagefault: SIGSEGV 131311 bad addr 0x2; err 0x6 nopage write
+Nov 22 15:58:58 minix kernel: clang    131311 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:58:58 minix kernel: PM: coredump signal 11 for 914 / clang
+Nov 22 15:58:58 minix kernel: clang    131311 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:59:30 minix kernel: VM: pagefault: SIGSEGV 196652 bad addr 0x2; err 0x6 nopage write
+Nov 22 15:59:30 minix kernel: clang    196652 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:59:30 minix kernel: VM: pagefault: SIGSEGV 196652 bad addr 0x2; err 0x6 nopage write
+Nov 22 15:59:30 minix kernel: clang    196652 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:59:30 minix kernel: PM: coredump signal 11 for 941 / clang
+Nov 22 15:59:30 minix kernel: clang    196652 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:59:34 minix kernel: VM: pagefault: SIGSEGV 163945 bad addr 0x2; err 0x6 nopage write
+Nov 22 15:59:34 minix kernel: clang    163945 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:59:34 minix kernel: VM: pagefault: SIGSEGV 163945 bad addr 0x2; err 0x6 nopage write
+Nov 22 15:59:34 minix kernel: clang    163945 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 15:59:34 minix kernel: PM: coredump signal 11 for 999 / clang
+Nov 22 15:59:34 minix kernel: clang    163945 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:04:27 minix kernel: VM: pagefault: SIGSEGV 163974 bad addr 0x2; err 0x6 nopage write
+Nov 22 16:04:27 minix kernel: clang    163974 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:04:27 minix kernel: VM: pagefault: SIGSEGV 163974 bad addr 0x2; err 0x6 nopage write
+Nov 22 16:04:27 minix kernel: clang    163974 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:04:27 minix kernel: PM: coredump signal 11 for 1028 / clang
+Nov 22 16:04:27 minix kernel: clang    163974 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:07:53 minix kernel: VM: pagefault: SIGSEGV 164047 bad addr 0x2; err 0x6 nopage write
+Nov 22 16:07:53 minix kernel: clang    164047 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:07:53 minix kernel: VM: pagefault: SIGSEGV 164047 bad addr 0x2; err 0x6 nopage write
+Nov 22 16:07:53 minix kernel: clang    164047 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:07:53 minix kernel: PM: coredump signal 11 for 1091 / clang
+Nov 22 16:07:53 minix kernel: clang    164047 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:08:15 minix kernel: VM: pagefault: SIGSEGV 196712 bad addr 0x2; err 0x6 nopage write
+Nov 22 16:08:15 minix kernel: clang    196712 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:08:15 minix kernel: VM: pagefault: SIGSEGV 196712 bad addr 0x2; err 0x6 nopage write
+Nov 22 16:08:15 minix kernel: clang    196712 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:08:15 minix kernel: PM: coredump signal 11 for 1207 / clang
+Nov 22 16:08:15 minix kernel: clang    196712 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:08:44 minix kernel: VM: pagefault: SIGSEGV 196740 bad addr 0x2; err 0x6 nopage write
+Nov 22 16:08:44 minix kernel: clang    196740 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:08:44 minix kernel: VM: pagefault: SIGSEGV 196740 bad addr 0x2; err 0x6 nopage write
+Nov 22 16:08:44 minix kernel: clang    196740 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:08:44 minix kernel: PM: coredump signal 11 for 1235 / clang
+Nov 22 16:08:44 minix kernel: clang    196740 0x86b1fcf 0x86aa623 0x86248ad 0x86245c7 0x862377e 0x862297f 0x861ee22 0x809b315 0x8431a1d 0x809acb3 0x80ad10d 0x805f000 0x8059ad8 0x80588d4 0x804cf4b 0x804ce78 
+Nov 22 16:09:40 minix poweroff: powered off by lcom
+Nov 22 16:09:40 minix dhcpcd[447]: received SIGTERM, stopping
+Nov 22 16:09:40 minix syslogd[527]: Exiting on signal 15
+Nov 22 16:10:03 minix syslogd[527]: restart
+Nov 22 16:10:03 minix kernel: 
+Nov 22 16:10:03 minix kernel: MINIX 3.4.0. Copyright 2016, Vrije Universiteit, Amsterdam, The Netherlands
+Nov 22 16:10:03 minix kernel: MINIX is open source software, see http://www.minix3.org
+Nov 22 16:10:03 minix kernel: Started VFS: 9 worker thread(s)
+Nov 22 16:10:03 minix sshd[606]: Server listening on :: port 22.
+Nov 22 16:10:03 minix sshd[606]: Server listening on 0.0.0.0 port 22.
+Nov 22 16:10:12 minix dhcpcd[447]: le0: no IPv6 Routers available
+Nov 22 16:10:21 minix login: root to lcom on tty console
+Nov 22 16:10:21 minix login: Cannot update lastlogx: Invalid argument
+Nov 22 16:10:28 minix sshd[663]: Accepted password for lcom from 10.0.2.2 port 58092 ssh2
+Nov 22 16:10:28 minix sshd[664]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 22 16:10:28 minix sshd[664]: lastlog_openseek: Couldn't stat /var/log/lastlog: No such file or directory
+Nov 22 16:10:28 minix sshd[664]: utmp_write_direct: tty not found
+Nov 22 16:10:28 minix sshd[664]: utmp_perform_login: utmp_write_direct() failed
+Nov 22 16:10:31 minix su: lcom to root on /dev/pts/0

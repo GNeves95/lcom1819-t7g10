@@ -1,0 +1,26 @@
+video_test_pattern(0x115, 4, 0x00000000, 255): under construction
+4 800 200 600 150
+0
+ff
+1fe
+2fd
+3fc
+ff
+1fe
+2fd
+3fc
+4fb
+fe
+1fd
+2fc
+3fb
+4fa
+fd
+1fc
+2fb
+3fa
+4f9
+Makecode: 0x9c
+Breakcode: 0x01
+Makecode: 0x81
+ef99c000

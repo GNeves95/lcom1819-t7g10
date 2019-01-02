@@ -1,0 +1,445 @@
+@lcflib.a:2018, lcf_start
+  timer_test_int(time)
+> timer_test_int(120)
+  @lab6.c:123, timer_test_int
+    printf("%d\n", time)
+    "120"
+  @rtc.c:46, rtc_bcd
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:47, rtc_bcd
+    sys_inb(RTC_DATA_REG, &regB)
+  > sys_inb(0x71, addr: 0xeffff634)
+  < sys_inb(0x71, addr: 0xeffff634 [0x02 = 0b00000010])
+  @lab6.c:286, rtc_test_int
+    printf("BCD: %d\n", rtc_bcd())
+    "BCD: 1"
+  @rtc.c:54, enable_rtc_int
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:55, enable_rtc_int
+    sys_inb(RTC_DATA_REG, &regB)
+  > sys_inb(0x71, addr: 0xeffff634)
+  < sys_inb(0x71, addr: 0xeffff634 [0x02 = 0b00000010])
+  @rtc.c:59, enable_rtc_int
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:60, enable_rtc_int
+    sys_outb(RTC_DATA_REG, regB)
+  > sys_outb(0x71, 0x72 = 0b01110010)
+  @rtc.c:65, disable_per_rtc_int
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:66, disable_per_rtc_int
+    sys_inb(RTC_DATA_REG, &regB)
+  > sys_inb(0x71, addr: 0xeffff634)
+  < sys_inb(0x71, addr: 0xeffff634 [0x72 = 0b01110010])
+  @rtc.c:73, disable_per_rtc_int
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:74, disable_per_rtc_int
+    sys_outb(RTC_DATA_REG, regB)
+  > sys_outb(0x71, 0x22 = 0b00100010)
+  @rtc.c:105, rtc_subscribe_int
+    sys_irqsetpolicy(RTC_IRQ, IRQ_REENABLE | IRQ_EXCLUSIVE, &hook_rtc_id)
+  > sys_irqsetpolicy(8, 3, addr: 0x81c70cc [8])
+  < sys_irqsetpolicy(8, 3, addr: 0x81c70cc [10]) -> (ret: 0)
+  @rtc.c:121, get_date
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:122, get_date
+    sys_inb(RTC_DATA_REG, &regB)
+  > sys_inb(0x71, addr: 0xeffff5c8)
+  < sys_inb(0x71, addr: 0xeffff5c8 [0x22 = 0b00100010])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x00 = 0b00000000)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x05 = 0b00000101])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x01 = 0b00000001)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x08 = 0b00001000])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x02 = 0b00000010)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x46 = 0b01000110])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x03 = 0b00000011)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x44 = 0b01000100])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x04 = 0b00000100)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x16 = 0b00010110])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x05 = 0b00000101)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x16 = 0b00010110])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x06 = 0b00000110)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x06 = 0b00000110])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x07 = 0b00000111)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x29 = 0b00101001])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x08 = 0b00001000)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x12 = 0b00010010])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x09 = 0b00001001)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff5c4)
+  < sys_inb(0x71, addr: 0xeffff5c4 [0x18 = 0b00011000])
+  @rtc.c:154, get_date
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:155, get_date
+    sys_inb(RTC_DATA_REG, &regB)
+  > sys_inb(0x71, addr: 0xeffff5c8)
+  < sys_inb(0x71, addr: 0xeffff5c8 [0x22 = 0b00100010])
+  @rtc.c:160, get_date
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:161, get_date
+    sys_outb(RTC_DATA_REG, regB)
+  > sys_outb(0x71, 0x22 = 0b00100010)
+  @rtc.c:208, set_alarm
+    printf("0x%X, %d, 0x%X\n", test, rtc_bcd_to_bin(test), rtc_bin_to_bcd(rtc_bcd_to_bin(test)))
+    "0xA2, 102, 0xA2"
+  @rtc.c:217, set_alarm
+    printf("%02d:%02d:%02d\n", hour,minutes,seconds)
+    "16:48:05"
+  @rtc.c:219, set_alarm
+    sys_outb(RTC_ADDR_REG, RTC_SEC_ALARM)
+  > sys_outb(0x70, 0x01 = 0b00000001)
+  @rtc.c:220, set_alarm
+    sys_outb(RTC_DATA_REG, rtc_bin_to_bcd(seconds))
+  > sys_outb(0x71, 0x05 = 0b00000101)
+  @rtc.c:222, set_alarm
+    sys_outb(RTC_ADDR_REG, RTC_MIN_ALARM)
+  > sys_outb(0x70, 0x03 = 0b00000011)
+  @rtc.c:223, set_alarm
+    sys_outb(RTC_DATA_REG, rtc_bin_to_bcd(minutes))
+  > sys_outb(0x71, 0x48 = 0b01001000)
+  @rtc.c:225, set_alarm
+    sys_outb(RTC_ADDR_REG, RTC_HOUR_ALARM)
+  > sys_outb(0x70, 0x05 = 0b00000101)
+  @rtc.c:226, set_alarm
+    sys_outb(RTC_DATA_REG, rtc_bin_to_bcd(hour))
+  > sys_outb(0x71, 0x16 = 0b00010110)
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x00 = 0b00000000)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x05 = 0b00000101])
+  @lab6.c:135, rtc_test_conf
+    printf("Seconds: 0x%X %d\n", data, data)
+    "Seconds: 0x5 5"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x01 = 0b00000001)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x05 = 0b00000101])
+  @lab6.c:138, rtc_test_conf
+    printf("Seconds Alarm: 0x%X %d\n", data, data)
+    "Seconds Alarm: 0x5 5"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x02 = 0b00000010)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x46 = 0b01000110])
+  @lab6.c:141, rtc_test_conf
+    printf("Minutes: 0x%X %d\n", data, data)
+    "Minutes: 0x46 70"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x03 = 0b00000011)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x48 = 0b01001000])
+  @lab6.c:144, rtc_test_conf
+    printf("Minutes Alarm: 0x%X %d\n", data, data)
+    "Minutes Alarm: 0x48 72"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x04 = 0b00000100)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x16 = 0b00010110])
+  @lab6.c:147, rtc_test_conf
+    printf("Hours: 0x%X %d\n", data, data)
+    "Hours: 0x16 22"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x05 = 0b00000101)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x16 = 0b00010110])
+  @lab6.c:150, rtc_test_conf
+    printf("Hours Alarm: 0x%X %d\n", data, data)
+    "Hours Alarm: 0x16 22"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x06 = 0b00000110)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x06 = 0b00000110])
+  @lab6.c:153, rtc_test_conf
+    printf("Day Of The Week: 0x%X %d\n", data, data)
+    "Day Of The Week: 0x6 6"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x07 = 0b00000111)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x29 = 0b00101001])
+  @lab6.c:156, rtc_test_conf
+    printf("Day Of The Month: 0x%X %d\n", data, data)
+    "Day Of The Month: 0x29 41"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x08 = 0b00001000)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x12 = 0b00010010])
+  @lab6.c:159, rtc_test_conf
+    printf("Month: 0x%X %d\n", data, data)
+    "Month: 0x12 18"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x09 = 0b00001001)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x18 = 0b00011000])
+  @lab6.c:162, rtc_test_conf
+    printf("Year: 0x%X %d\n", data, data)
+    "Year: 0x18 24"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x0a = 0b00001010)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x26 = 0b00100110])
+  @lab6.c:165, rtc_test_conf
+    printf("A: 0x%X\n", data)
+    "A: 0x26"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x22 = 0b00100010])
+  @lab6.c:168, rtc_test_conf
+    printf("B: 0x%X\n", data)
+    "B: 0x22"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x0c = 0b00001100)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0xc0 = 0b11000000])
+  @lab6.c:171, rtc_test_conf
+    printf("C: 0x%X\n", data)
+    "C: 0xC0"
+  @lab6.c:131, rtc_test_conf
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x0d = 0b00001101)
+  @lab6.c:132, rtc_test_conf
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff62c)
+  < sys_inb(0x71, addr: 0xeffff62c [0x80 = 0b10000000])
+  @lab6.c:174, rtc_test_conf
+    printf("D: 0x%X\n", data)
+    "D: 0x80"
+  @lab6.c:301, rtc_test_int
+    driver_receive(ANY, &msg, &estado)
+  > driver_receive(ANY, addr: 0xeffff6b0, addr: 0xeffff6f8)
+  < driver_receive(<[HARDWARE: 0b0000000000000000000000000000000000000000000000000000000100000000]>)
+  @rtc.c:181, rtc_ih
+    sys_outb(RTC_ADDR_REG, RTC_REG_C)
+  > sys_outb(0x70, 0x0c = 0b00001100)
+  @rtc.c:182, rtc_ih
+    sys_inb(RTC_DATA_REG, &regC)
+  > sys_inb(0x71, addr: 0xeffff630)
+  < sys_inb(0x71, addr: 0xeffff630 [0x00 = 0b00000000])
+  @lab6.c:301, rtc_test_int
+    driver_receive(ANY, &msg, &estado)
+  > driver_receive(ANY, addr: 0xeffff6b0, addr: 0xeffff6f8)
+  < driver_receive(<[HARDWARE: 0b0000000000000000000000000000000000000000000000000000000100000000]>)
+  @rtc.c:181, rtc_ih
+    sys_outb(RTC_ADDR_REG, RTC_REG_C)
+  > sys_outb(0x70, 0x0c = 0b00001100)
+  @rtc.c:182, rtc_ih
+    sys_inb(RTC_DATA_REG, &regC)
+  > sys_inb(0x71, addr: 0xeffff630)
+  < sys_inb(0x71, addr: 0xeffff630 [0xa0 = 0b10100000])
+  @rtc.c:191, rtc_ih
+    printf("AF\n")
+    "AF"
+  @rtc.c:171, handle_alarm_int
+    printf("Alarm\n")
+    "Alarm"
+  @lab6.c:309, rtc_test_int
+    printf("Here!\n")
+    "Here!"
+  @lab6.c:318, rtc_test_int
+    printf("Alarmed\n")
+    "Alarmed"
+  @rtc.c:112, rtc_unsubscribe_int
+    sys_irqrmpolicy(&hook_rtc_id)
+  > sys_irqrmpolicy(addr: 0x81c70cc [10])
+  < sys_irqrmpolicy(addr: 0x81c70cc [10]) -> (ret: 0)
+  @rtc.c:79, disable_rtc_int
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:80, disable_rtc_int
+    sys_inb(RTC_DATA_REG, &regB)
+  > sys_inb(0x71, addr: 0xeffff634)
+  < sys_inb(0x71, addr: 0xeffff634 [0x22 = 0b00100010])
+  @rtc.c:89, disable_rtc_int
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:90, disable_rtc_int
+    sys_outb(RTC_DATA_REG, regB)
+  > sys_outb(0x71, 0x02 = 0b00000010)
+  @rtc.c:121, get_date
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:122, get_date
+    sys_inb(RTC_DATA_REG, &regB)
+  > sys_inb(0x71, addr: 0xeffff628)
+  < sys_inb(0x71, addr: 0xeffff628 [0x02 = 0b00000010])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x00 = 0b00000000)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x05 = 0b00000101])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x01 = 0b00000001)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x05 = 0b00000101])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x02 = 0b00000010)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x48 = 0b01001000])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x03 = 0b00000011)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x48 = 0b01001000])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x04 = 0b00000100)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x16 = 0b00010110])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x05 = 0b00000101)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x16 = 0b00010110])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x06 = 0b00000110)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x06 = 0b00000110])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x07 = 0b00000111)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x29 = 0b00101001])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x08 = 0b00001000)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x12 = 0b00010010])
+  @rtc.c:126, get_date
+    sys_outb(RTC_ADDR_REG, i)
+  > sys_outb(0x70, 0x09 = 0b00001001)
+  @rtc.c:127, get_date
+    sys_inb(RTC_DATA_REG, &data)
+  > sys_inb(0x71, addr: 0xeffff624)
+  < sys_inb(0x71, addr: 0xeffff624 [0x18 = 0b00011000])
+  @rtc.c:154, get_date
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:155, get_date
+    sys_inb(RTC_DATA_REG, &regB)
+  > sys_inb(0x71, addr: 0xeffff628)
+  < sys_inb(0x71, addr: 0xeffff628 [0x02 = 0b00000010])
+  @rtc.c:160, get_date
+    sys_outb(RTC_ADDR_REG, RTC_REG_B)
+  > sys_outb(0x70, 0x0b = 0b00001011)
+  @rtc.c:161, get_date
+    sys_outb(RTC_DATA_REG, regB)
+  > sys_outb(0x71, 0x02 = 0b00000010)
+  @lab6.c:328, rtc_test_int
+    printf("%02d:%02d:%02d, %s, %02d/%02d/%d, %d of %s of %d\n",aux.hours, aux.minutes, aux.seconds, aux.dweek, aux.day, aux.month, aux.year, aux.day, aux.mon, aux.year)
+    "16:48:05, Saturday, 29/12/2018, 29 of December of 2018"
+< timer_test_int(120) -> (ret: 0)

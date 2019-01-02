@@ -1,0 +1,18 @@
+@lcflib.a:2018, lcf_start
+  video_test_controller()
+  @lab5.c:381, video_test_controller
+    printf("%s(): under construction\n", __func__)
+    "video_test_controller(): under construction"
+  @video_gr.c:333, vg_vbe_get_info
+    lm_init(true)
+  < lm_init(true) -> (ret: 0xefafd000)
+  @video_gr.c:348, vg_vbe_get_info
+    sys_int86(&r)
+  > sys_int86(addr: 0xeffff510 [AX: 4f00, BX: 0000, CX: 0000, DX: 0000, ES: 0000, DI: 0000])
+  < sys_int86(addr: 0xeffff510 [AX: 004f, BX: 0000, CX: 0000, DX: 0000, ES: 0000, DI: 0000]) -> (ret: 0)
+  @video_gr.c:394, vg_vbe_get_info
+    lm_free(&buf)
+  < lm_free(addr: 0xeffff538 [phys: 0x081b50a0, virt: 0xeffff628, size: 129.707 MiB]) -> (ret: false)
+  @lab5.c:400, video_test_controller
+    vg_display_vbe_contr_info(&info_p)
+  > vg_display_vbe_contr_info(addr: 0xeffff578)

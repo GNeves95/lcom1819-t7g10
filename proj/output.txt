@@ -1,0 +1,23 @@
+120
+BCD: 1
+0xA2, 102, 0xA2
+16:48:05
+Seconds: 0x5 5
+Seconds Alarm: 0x5 5
+Minutes: 0x46 70
+Minutes Alarm: 0x48 72
+Hours: 0x16 22
+Hours Alarm: 0x16 22
+Day Of The Week: 0x6 6
+Day Of The Month: 0x29 41
+Month: 0x12 18
+Year: 0x18 24
+A: 0x26
+B: 0x22
+C: 0xC0
+D: 0x80
+AF
+Alarm
+Here!
+Alarmed
+16:48:05, Saturday, 29/12/2018, 29 of December of 2018

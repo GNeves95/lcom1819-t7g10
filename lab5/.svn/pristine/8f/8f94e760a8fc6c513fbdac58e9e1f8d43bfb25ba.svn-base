@@ -1,0 +1,78 @@
+// IMPORTANT: you must include the following line in all your C files
+#include <lcom/lcf.h>
+
+//#include <lcom/vbe.h>
+
+#include <lcom/video_gr.h>
+
+#include <liblm.h>
+
+#include <machine/int86.h>
+
+//#include <minix/driver.h>
+#include <sys/mman.h>
+
+#include <stdint.h>
+#include <stdio.h>
+
+#include "vga.h"
+
+//int sys_int86(struct reg86u *reg86p);
+
+/*
+
+Initializes the video module in graphics mode.
+
+Uses the VBE INT 0x10 interface to set the desired graphics mode using a linear frame buffer, maps VRAM to the process' address space and initializes static global variables with the resolution of the screen, and the color depth (i.e the no. of bits per pixel). Initially, you should call function vbe_get_mode_info() provided by the LCF, to get this information. Later, you can implement your own version of this function.
+
+Parameters
+    mode	16-bit VBE mode to set
+
+Returns
+    Virtual address VRAM was mapped to. NULL, upon failure. 
+
+*/
+
+void* (vg_init)(uint16_t mode){
+	struct reg86u r;
+	memset(&r, 0, sizeof(struct reg86u));
+	r.u.w.ax = VBE_SET; // VBE call, function 02 -- set VBE mode
+	r.u.w.bx = 1<<14|mode; // set bit 14: linear framebuffer
+	r.u.b.intno = VBE_INT;
+	if( sys_int86(&r) != OK ) {
+		printf("set_vbe_mode: sys_int86() failed \n");
+		return NULL;
+	}
+		
+	vbe_mode_info_t vmi_p;
+	
+	vbe_get_mode_info(mode, &vmi_p);
+	
+	h_res = vmi_p.XResolution;
+	v_res = vmi_p.YResolution;
+	bits_per_pixel = vmi_p.BitsPerPixel;
+	
+	//static void *video_mem;
+	
+	int ret;
+	struct minix_mem_range mr;
+	unsigned int vram_base = vmi_p.PhysBasePtr;
+	/* VRAM's physical addresss */
+	unsigned int vram_size = h_res * v_res * bits_per_pixel;
+	
+	/* VRAM's size, but you can use the frame-buffer size, instead */
+	/* Allow memory mapping */
+	mr.mr_base = (phys_bytes) vram_base;
+	mr.mr_limit = mr.mr_base + vram_size;
+	
+	if( OK != (ret = sys_privctl(SELF, SYS_PRIV_ADD_MEM, &mr)))
+		panic("sys_privctl (ADD_MEM) failed: %d\n", ret);
+		
+	/* Map memory */
+	video_mem = vm_map_phys(SELF, (void *)mr.mr_base, vram_size);
+	
+	if(video_mem == MAP_FAILED)
+		panic("couldn't map video memory");
+		
+	return video_mem;
+}
