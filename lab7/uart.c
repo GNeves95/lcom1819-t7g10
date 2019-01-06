@@ -30,6 +30,10 @@ sys_inb(ser_port + UART_LSR, &lsr);
 sys_outb(ser_port+UART_THR, c);
 * */
 
+int hook_com1_id = 4;
+
+int hook_com2_id = 3;
+
 uint8_t uart_get_conf(base_address base_addr){
 	uint32_t data = 0;
 
@@ -129,14 +133,24 @@ uint8_t uart_get_polled(base_address base_addr, uint32_t *character){
 		}
 		else if(st & SER_REC_DATA){
 			sys_inb(base_addr + UART_RBR, character);
-			//printf("%c\n", &character);
+			//printf("Get Polled: 0x%X\n", *character);
 			return 0;
 		}
 	}
 	return 1;
 }
 
+uint8_t uart_rx_ack(base_address base_addr){
+	if(uart_send_polled(base_addr, REQ)) return 1;
+	uint32_t ret;
+	uart_get_polled(base_addr, &ret);
+	//printf("RX: 0x%X\n", ret);
+	if(ret != ACK) return 1;
+	return 0;
+}
+
 uint8_t uart_get_polled_word(base_address base_addr, char **word){
+	while(uart_rx_ack(base_addr));
 	*word  = NULL;
 	char *string = (char *)malloc(sizeof(char));
 	string[0] = '\0';
@@ -167,20 +181,57 @@ uint8_t uart_get_polled_word(base_address base_addr, char **word){
 
 uint8_t uart_send_polled(base_address base_addr, uint32_t character){
 	uint32_t lsr = 0;
-	do{
-		tickdelay(micros_to_ticks(DELAY_US));
-		sys_inb(base_addr + UART_LSR, &lsr);
-	}while(!(lsr & SER_THR_EMPTY));
+	tickdelay(micros_to_ticks(DELAY_US));
+	sys_inb(base_addr + UART_LSR, &lsr);
+	if((lsr & SER_TRAN_EMPTY) != SER_TRAN_EMPTY) return 1;
 	sys_outb(base_addr+UART_THR, character);
+	return 0;
+}
+
+uint8_t uart_tx_ack(base_address base_addr){
+	uint32_t ret;
+	if(uart_get_polled(base_addr, &ret)) return 1;
+	//printf("TX: 0x%X\n", ret);
+	if(ret != REQ) return 2;
+	if(uart_send_polled(base_addr, ACK)) return 1;
 	return 0;
 }
 
 uint8_t uart_send_polled_word(base_address base_addr, char *word){
 	uint64_t i=0;
+	while(uart_tx_ack(base_addr) != 0){printf("STAHP!\n");}
 	while(word[i] != '\0'){
-		uart_send_polled(base_addr, word[i]);
-		i++;
+		if(uart_send_polled(base_addr, word[i])) printf("problem?\n");
+		else {i++;}
 	}
 	uart_send_polled(base_addr, '\0');	//force end of string
 	return 0;
+}
+
+int uart_subscribe_com1_int(uint8_t *bit_no){
+    *bit_no = hook_com1_id;
+	if (sys_irqsetpolicy(COM1_IRQ, IRQ_REENABLE | IRQ_EXCLUSIVE, &hook_com1_id) != 0)
+        return 1;
+    return 0;
+}
+
+int uart_subscribe_com2_int(uint8_t *bit_no){
+    *bit_no = hook_com2_id;
+	if (sys_irqsetpolicy(COM2_IRQ, IRQ_REENABLE | IRQ_EXCLUSIVE, &hook_com2_id) != 0)
+        return 1;
+    return 0;
+}
+
+int uart_unsubscribe_com1_int(void)
+{
+    if (sys_irqrmpolicy(&hook_com1_id) != 0)
+        return 1;
+    return 0;
+}
+
+int uart_unsubscribe_com2_int(void)
+{
+    if (sys_irqrmpolicy(&hook_com2_id) != 0)
+        return 1;
+    return 0;
 }

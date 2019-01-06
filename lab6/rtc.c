@@ -91,6 +91,9 @@ timedate get_date(){
 	uint32_t regB = 0;
 	sys_outb(RTC_ADDR_REG, RTC_REG_B);
 	sys_inb(RTC_DATA_REG, &regB);
+	
+	sys_outb(RTC_ADDR_REG, RTC_REG_B);
+	sys_outb(RTC_DATA_REG, regB | RTC_B_SET);
 		
 	for(int i=0; i < 10; i++){
 		uint32_t data;
@@ -157,7 +160,7 @@ int rtc_ih(void) {
 		handle_update_int();
 	}
 	if( regC & RTC_C_AF ){
-		printf("AF\n");
+		//printf("AF\n");
 		handle_alarm_int();
 		return 1;
 	}
@@ -176,7 +179,7 @@ void set_alarm(uint16_t time){
 	
 	res_time += time;
 	
-	hour += res_time / (60*60);
+	hour += res_time / (60*60)%24;
 	minutes += ((res_time)/ (60))%60;
 	seconds += ((res_time)%60);
 	//printf("%02d:%02d:%02d\n", hour,minutes,seconds);

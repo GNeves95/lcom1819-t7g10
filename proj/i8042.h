@@ -187,6 +187,10 @@
 
 #define ESC_BREAK 		0x81
 
+#define ENTER_MAKE		0x1C
+
+#define ENTER_BREAK		0x9C
+
 #define L_CTRL_MAKE 	0x1D
 
 #define L_CTRL_BREAK 	0x9D
@@ -202,6 +206,22 @@
 #define SPACE_MAKE		0x39
 
 #define SPACE_BREAK 	0xB9
+
+#define UP_ARROW_MAKE	0x48
+
+#define UP_ARROW_BREAK	0xC8
+
+#define DOWN_ARROW_MAKE	0x50
+
+#define DOWN_ARROW_BREAK 0xD0
+
+#define LEFT_ARROW_MAKE	0x4B
+
+#define LEFT_ARROW_BREAK 0xCB
+
+#define RIGHT_ARROW_MAKE 0x4D
+
+#define RIGHT_ARROW_BREAK 0xCD
 
 #define DOUBLE_CODE 	0xE0
 

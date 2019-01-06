@@ -53,6 +53,14 @@
 									//Reset to 0 when the LSR is read, if there are no sub-
 									//sequent errors in the FIFO
 									
+#define ACK					0xFA
+
+#define NACK				0xFE
+
+#define ERROR				0xFC
+
+#define REQ					0xFF
+									
 typedef enum base_address{COM1=0x3F8, COM2=0x2F8} base_address;
 
 typedef enum parity_control{none=-1, even=0, odd=1} parity_control;
@@ -63,10 +71,22 @@ uint8_t uart_set(base_address base_addr, uint8_t bits, uint8_t stop, parity_cont
 
 uint8_t uart_get_polled(base_address base_addr, uint32_t *character);
 
+uint8_t uart_rx_ack(base_address base_addr);
+
 uint8_t uart_get_polled_word(base_address base_addr, char **word);
 
 uint8_t uart_send_polled(base_address base_addr, uint32_t character);
 
+uint8_t uart_tx_ack(base_address base_addr);
+
 uint8_t uart_send_polled_word(base_address base_addr, char *word);
+
+int uart_subscribe_com1_int(uint8_t *bit_no);
+
+int uart_subscribe_com2_int(uint8_t *bit_no);
+
+int uart_unsubscribe_com1_int(void);
+
+int uart_unsubscribe_com2_int(void);
 
 #endif

@@ -2,6 +2,17 @@
 #define _GAME_H
 
 #include "vga.h"
+#include "img/alphabet.xpm"
+#include "img/buttons/320x200.xpm"
+#include "img/buttons/640x480.xpm"
+#include "img/buttons/800x600.xpm"
+#include "img/buttons/1024x768.xpm"
+#include "img/buttons/1280x1024.xpm"
+#include "img/buttons/back.xpm"
+#include "img/buttons/hisco.xpm"
+#include "img/buttons/options.xpm"
+#include "img/buttons/quit.xpm"
+#include "img/buttons/start.xpm"
 
 typedef struct _keystatus {
     bool q;
@@ -43,11 +54,41 @@ typedef struct _keystatus {
     bool numb8;
     bool numb9;
     bool numb0;
+    bool up;
+    bool down;
+    bool left;
+    bool right;
+    bool enter;
 } keystatus;
+
+typedef struct alpha_sprites {
+	xpm_image_t letters[26];
+	xpm_image_t numbers[10];
+	xpm_image_t dashxpm;
+	xpm_image_t slashxpm;
+	xpm_image_t	dotxpm;
+	xpm_image_t colonxpm;
+} alpha_sprites;
+
+typedef struct hscore{
+	unsigned int points;
+	char player[3];
+	char date[19];
+	bool active;
+}hscore;
+
+typedef struct _pu{
+	int x, y;
+	bool active;
+} pu;
 
 typedef enum _powerup{
 	none, fast, slow, invincible
 } powerup;
+
+typedef enum game_state{
+	menu, options, game, quit, hiscore, save
+} game_state;
 
 typedef struct _sprite{
 	unsigned int width, height;
@@ -75,9 +116,179 @@ typedef struct _hero{
 	powerup status;
 }hero;
 
+typedef struct buttons{
+	xpm_image_t size_1_xpm, size_2_xpm, size_3_xpm, size_4_xpm, size_5_xpm, backxpm, optionsxpm, quitxpm, hiscoxpm, startxpm;
+}buttons;
+
 enemies *alunos;
 hero *souto;
 keystatus ks;
+pu boost;
+alpha_sprites alphabet;
+buttons buttonsXpm;
+hscore hScores[5];
+
+game_state gameStatus;
+
+bool printAlphabet = false, printButtons = false;
+
+int loadAlphanum(){
+	if (xpm_load(_0_xpm, XPM_8_8_8, &(alphabet.numbers[0])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_1_xpm, XPM_8_8_8, &(alphabet.numbers[1])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_2_xpm, XPM_8_8_8, &(alphabet.numbers[2])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_3_xpm, XPM_8_8_8, &(alphabet.numbers[3])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_4_xpm, XPM_8_8_8, &(alphabet.numbers[4])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_5_xpm, XPM_8_8_8, &(alphabet.numbers[5])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_6_xpm, XPM_8_8_8, &(alphabet.numbers[6])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_7_xpm, XPM_8_8_8, &(alphabet.numbers[7])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_8_xpm, XPM_8_8_8, &(alphabet.numbers[8])) == NULL){
+		return 1;
+	}
+	if (xpm_load(_9_xpm, XPM_8_8_8, &(alphabet.numbers[9])) == NULL){
+		return 1;
+	}
+	if (xpm_load(a_xpm, XPM_8_8_8, &(alphabet.letters[0])) == NULL){
+		return 1;
+	}
+	if (xpm_load(b_xpm, XPM_8_8_8, &(alphabet.letters[1])) == NULL){
+		return 1;
+	}
+	if (xpm_load(c_xpm, XPM_8_8_8, &(alphabet.letters[2])) == NULL){
+		return 1;
+	}
+	if (xpm_load(d_xpm, XPM_8_8_8, &(alphabet.letters[3])) == NULL){
+		return 1;
+	}
+	if (xpm_load(e_xpm, XPM_8_8_8, &(alphabet.letters[4])) == NULL){
+		return 1;
+	}
+	if (xpm_load(f_xpm, XPM_8_8_8, &(alphabet.letters[5])) == NULL){
+		return 1;
+	}
+	if (xpm_load(g_xpm, XPM_8_8_8, &(alphabet.letters[6])) == NULL){
+		return 1;
+	}
+	if (xpm_load(h_xpm, XPM_8_8_8, &(alphabet.letters[7])) == NULL){
+		return 1;
+	}
+	if (xpm_load(i_xpm, XPM_8_8_8, &(alphabet.letters[8])) == NULL){
+		return 1;
+	}
+	if (xpm_load(j_xpm, XPM_8_8_8, &(alphabet.letters[9])) == NULL){
+		return 1;
+	}
+	if (xpm_load(k_xpm, XPM_8_8_8, &(alphabet.letters[10])) == NULL){
+		return 1;
+	}
+	if (xpm_load(l_xpm, XPM_8_8_8, &(alphabet.letters[11])) == NULL){
+		return 1;
+	}
+	if (xpm_load(m_xpm, XPM_8_8_8, &(alphabet.letters[12])) == NULL){
+		return 1;
+	}
+	if (xpm_load(n_xpm, XPM_8_8_8, &(alphabet.letters[13])) == NULL){
+		return 1;
+	}
+	if (xpm_load(o_xpm, XPM_8_8_8, &(alphabet.letters[14])) == NULL){
+		return 1;
+	}
+	if (xpm_load(p_xpm, XPM_8_8_8, &(alphabet.letters[15])) == NULL){
+		return 1;
+	}
+	if (xpm_load(q_xpm, XPM_8_8_8, &(alphabet.letters[16])) == NULL){
+		return 1;
+	}
+	if (xpm_load(r_xpm, XPM_8_8_8, &(alphabet.letters[17])) == NULL){
+		return 1;
+	}
+	if (xpm_load(s_xpm, XPM_8_8_8, &(alphabet.letters[18])) == NULL){
+		return 1;
+	}
+	if (xpm_load(t_xpm, XPM_8_8_8, &(alphabet.letters[19])) == NULL){
+		return 1;
+	}
+	if (xpm_load(u_xpm, XPM_8_8_8, &(alphabet.letters[20])) == NULL){
+		return 1;
+	}
+	if (xpm_load(v_xpm, XPM_8_8_8, &(alphabet.letters[21])) == NULL){
+		return 1;
+	}
+	if (xpm_load(w_xpm, XPM_8_8_8, &(alphabet.letters[22])) == NULL){
+		return 1;
+	}
+	if (xpm_load(x_xpm, XPM_8_8_8, &(alphabet.letters[23])) == NULL){
+		return 1;
+	}
+	if (xpm_load(y_xpm, XPM_8_8_8, &(alphabet.letters[24])) == NULL){
+		return 1;
+	}
+	if (xpm_load(z_xpm, XPM_8_8_8, &(alphabet.letters[25])) == NULL){
+		return 1;
+	}
+	if (xpm_load(dash_xpm, XPM_8_8_8, &(alphabet.dashxpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(slash_xpm, XPM_8_8_8, &(alphabet.slashxpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(dot_xpm, XPM_8_8_8, &(alphabet.dotxpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(colon_xpm, XPM_8_8_8, &(alphabet.colonxpm)) == NULL){
+		return 1;
+	}
+	return 0;
+}
+
+int loadButtons(){
+	if (xpm_load(_320x200_xpm, XPM_8_8_8, &(buttonsXpm.size_1_xpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(_640x480_xpm, XPM_8_8_8, &(buttonsXpm.size_2_xpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(_800x600_xpm, XPM_8_8_8, &(buttonsXpm.size_3_xpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(_1024x768_xpm, XPM_8_8_8, &(buttonsXpm.size_4_xpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(_1280x1024_xpm, XPM_8_8_8, &(buttonsXpm.size_5_xpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(back_xpm, XPM_8_8_8, &(buttonsXpm.backxpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(start_xpm, XPM_8_8_8, &(buttonsXpm.startxpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(hisco_xpm, XPM_8_8_8, &(buttonsXpm.hiscoxpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(options_xpm, XPM_8_8_8, &(buttonsXpm.optionsxpm)) == NULL){
+		return 1;
+	}
+	if (xpm_load(quit_xpm, XPM_8_8_8, &(buttonsXpm.quitxpm)) == NULL){
+		return 1;
+	}
+	return 0;
+}
 
 int killZombie(unsigned int id){
 	//printf("%d\n", id);
@@ -88,11 +299,11 @@ int killZombie(unsigned int id){
 	}
 	zombie * curr;
 	for(curr = alunos->first; curr != alunos->last; curr = curr->next){
-		printf("curr: %d, alive: %d, next: 0x%X\n", curr->id, curr->alive, curr->next);
+		//printf("curr: %d, alive: %d, next: 0x%X\n", curr->id, curr->alive, curr->next);
 		if(curr->alive != true) return 1;
-		printf("It's alive!\n");
+		//printf("It's alive!\n");
 		if(curr->id == id){
-			printf("Same id, prev: 0x%X, next: 0x%X\n", curr->prev, curr->next);
+			//printf("Same id, prev: 0x%X, next: 0x%X\n", curr->prev, curr->next);
 			curr->speed_x = 0;
 			curr->speed_y = 0;
 			curr->x = 3000;
@@ -114,6 +325,8 @@ int killZombie(unsigned int id){
 }
 
 int gameInit(){
+	gameStatus = menu;
+	
 	souto = (hero*)malloc(sizeof(hero));
 	alunos = (enemies*)malloc(sizeof(enemies));
 	alunos->first = (zombie*)malloc(sizeof(zombie));
@@ -123,6 +336,11 @@ int gameInit(){
 	
 	sprite *zombies = (sprite *)malloc(sizeof(sprite));
 	sprite heroes;
+	
+	boost.active = true;
+	
+	boost.x = rand() % (2000-getHRes());
+	boost.y = rand() % (2000-getVRes());
 	
 	/*heroes.map = read_xpm(souto_xpm, &(heroes.width), &(heroes.height));
 	
@@ -225,6 +443,26 @@ int spawnZombie(){
 	}
 	
 	return 1;
+}
+
+void makeBoost(){
+	boost.active = true;
+	
+	boost.x = rand() % (2000-getHRes());
+	boost.y = rand() % (2000-getVRes());
+}
+
+void destroyBoost(){
+	boost.active = false;
+	
+	boost.x = -2000;
+	boost.y = -2000;
+}
+
+bool onBoost(int x, int y){
+	if(!(boost.active)) return false;
+	if(x > boost.x-20 && x < boost.x+20 && y > boost.y-20 && y < boost.y+20) return true;
+	return false;
 }
 
 #endif
